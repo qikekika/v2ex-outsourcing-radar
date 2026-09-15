@@ -17,6 +17,8 @@ from typing import List, Dict, Optional
 
 V2EX_RSS = "https://www.v2ex.com/feed/outsourcing.xml"
 V2EX_JSON = "https://www.v2ex.com/api/topics/show.json?node_name=outsourcing"
+# Try to get more pages from JSON API
+V2EX_JSON_PAGES = [f"https://www.v2ex.com/api/topics/show.json?node_name=outsourcing&page={i}" for i in range(1, 4)]
 
 BUYER_KEYWORDS = [
     '求', '找人', '找个', '谁能', '需要', '急需', '外包', '兼职', '接单',
@@ -62,6 +64,12 @@ URGENT_KEYWORDS = ['急', '急需', '马上', '立即', '尽快', 'ASAP', 'urgen
 
 def is_buyer_post(title: str, content: str) -> bool:
     text = (title + ' ' + content).lower()
+    # Hard filter: explicit seller markers
+    seller_hard_markers = ['[接单]', '[承接]', '[提供]', '[出售]', '[代做]', '[代写]', '[外包服务]', '[团队]', '[工作室]', '[个人开发]', '[全栈]', '[独立开发]', '[作品集]', '[案例]', '[报价单]', '[价目表]']
+    for marker in seller_hard_markers:
+        if marker.lower() in text:
+            return False
+
     buyer_score = sum(1 for kw in BUYER_KEYWORDS if kw.lower() in text)
     seller_score = sum(1 for kw in SELLER_KEYWORDS if kw.lower() in text)
     return buyer_score > seller_score
@@ -83,7 +91,13 @@ def parse_budget(text: str) -> Optional[int]:
 
 
 def extract_tech(text: str) -> List[str]:
-    return [t for t in TECH_KEYWORDS if re.search(t, text, re.IGNORECASE)]
+    # Filter out navigation/UI text that Jina AI returns from V2EX layout
+    nav_keywords = ['way to explore', 'home', 'sign up', 'sign in', 'v2ex', 'creative commons', 'about', 'faq', 'api', '节点', '登录', '注册', '广告投放', '版权声明']
+    text_lower = text.lower()
+    if any(nav in text_lower for nav in nav_keywords):
+        # Only extract from first 2000 chars to avoid nav/footer
+        text = text[:2000]
+    return [t for t in TECH_KEYWORDS if re.search(r'\b' + re.escape(t) + r'\b', text, re.IGNORECASE)]
 
 
 def extract_contacts(text: str) -> List[str]:
@@ -109,21 +123,36 @@ def fetch_v2ex_rss() -> List[Dict]:
 
 
 def fetch_v2ex_json() -> List[Dict]:
-    try:
-        resp = requests.get(V2EX_JSON, timeout=30, headers={'User-Agent': 'v2ex-radar/1.0'})
-        resp.raise_for_status()
-        data = resp.json()
-        return [{
-            'id': item.get('id'),
-            'title': item.get('title', ''),
-            'content': item.get('content', ''),
-            'url': f"https://www.v2ex.com/t/{item.get('id')}",
-            'created': item.get('created', int(time.time())),
-            'member': {'username': item.get('member', {}).get('username', 'unknown')}
-        } for item in data]
-    except Exception as e:
-        print(f"JSON API fetch failed: {e}")
-        return []
+    all_items = []
+    seen_ids = set()
+    for url in V2EX_JSON_PAGES:
+        try:
+            resp = requests.get(url, timeout=30, headers={'User-Agent': 'v2ex-radar/1.0'})
+            resp.raise_for_status()
+            data = resp.json()
+            if not data:
+                break
+            new_items = 0
+            for item in data:
+                item_id = item.get('id')
+                if item_id and item_id not in seen_ids:
+                    seen_ids.add(item_id)
+                    all_items.append({
+                        'id': item_id,
+                        'title': item.get('title', ''),
+                        'content': item.get('content', ''),
+                        'url': f"https://www.v2ex.com/t/{item_id}",
+                        'created': item.get('created', int(time.time())),
+                        'member': {'username': item.get('member', {}).get('username', 'unknown')}
+                    })
+                    new_items += 1
+            if new_items == 0:
+                break  # No new items, stop pagination
+            time.sleep(0.5)  # Rate limit
+        except Exception as e:
+            print(f"JSON API fetch failed for {url}: {e}")
+            break
+    return all_items
 
 
 def parse_rss(xml: str) -> List[Dict]:
@@ -170,11 +199,15 @@ def parse_rss(xml: str) -> List[Dict]:
 def enrich_with_jina(item: Dict) -> Dict:
     try:
         url = item['url']
+        # Use Jina AI to fetch the actual topic page content
         jina_url = f"https://r.jina.ai/http://{url.replace('https://', '').replace('http://', '')}"
         resp = requests.get(jina_url, timeout=30, headers={'User-Agent': 'v2ex-radar/1.0'})
         if resp.status_code == 200:
             full_content = resp.text
-            if len(full_content) > len(item.get('content', '')):
+            # Only use if we got substantial content (not just navigation)
+            if len(full_content) > 200 and 'way to explore' not in full_content[:500]:
+                item['content'] = full_content[:5000]
+            elif len(full_content) > len(item.get('content', '')):
                 item['content'] = full_content[:5000]
     except Exception as e:
         print(f"Jina enrich failed for {item.get('url')}: {e}")
@@ -214,20 +247,27 @@ def process_item(item: Dict) -> Optional[Dict]:
 
 
 def main():
+    import sys
+    import io
+    # Force UTF-8 output on Windows
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+
     print("Fetching V2EX outsourcing posts...")
 
-    raw_items = fetch_v2ex_json()
+    # Try RSS first (has more items and full descriptions)
+    raw_items = fetch_v2ex_rss()
     if not raw_items:
-        print("JSON API empty, trying RSS...")
-        raw_items = fetch_v2ex_rss()
+        print("RSS empty, trying JSON API...")
+        raw_items = fetch_v2ex_json()
 
     print(f"Got {len(raw_items)} raw items")
 
+    # Enrich with Jina AI for first 30 items
     enriched_items = []
-    for item in raw_items[:20]:
+    for item in raw_items[:30]:
         enriched = enrich_with_jina(item)
         enriched_items.append(enriched)
-        time.sleep(0.5)
+        time.sleep(0.3)
 
     signals = []
     all_techs = set()
