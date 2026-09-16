@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-15T04:02:36.581660Z",
+  "timestamp": "2026-09-16T07:24:32.596417Z",
   "signals": [
     {
       "id": 1240655,
@@ -7,7 +7,7 @@
       "url": "https://www.v2ex.com/t/1240655",
       "author": "yjpeminem0604",
       "created": 1788929355,
-      "daysAgo": 5,
+      "daysAgo": 7,
       "budget": 50000,
       "techs": [
         "Go",
@@ -19,12 +19,25 @@
       "snippet": "Title: 短期外包，找懂前端的设计师，或懂设计的前端  URL Source: http://www.v2ex.com/t/1240655  Published Time: 2026-09-09T04:49:15Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex.com/)"
     },
     {
+      "id": 1241995,
+      "title": "APP 逆向需求：野鸡聊天软件，抢红包必须抢到手气最佳的一个",
+      "url": "https://www.v2ex.com/t/1241995",
+      "author": "rocketman13",
+      "created": 1789403161,
+      "daysAgo": 1,
+      "budget": null,
+      "techs": [],
+      "contacts": [],
+      "urgent": false,
+      "snippet": "Title: APP 逆向需求：野鸡聊天软件，抢红包必须抢到手气最佳的一个  URL Source: http://www.v2ex.com/t/1241995  Published Time: 2026-09-14T16:26:01Z  Markdown Content: [](https://www.digitalocean.com/?refcode=1b51f1a7651d)  **[Abo"
+    },
+    {
       "id": 1240702,
       "title": "上海宝山 找网络运维工程师 按天结算",
       "url": "https://www.v2ex.com/t/1240702",
       "author": "fan88",
       "created": 1788937893,
-      "daysAgo": 5,
+      "daysAgo": 7,
       "budget": null,
       "techs": [
         "Go",
@@ -40,7 +53,7 @@
       "url": "https://www.v2ex.com/t/1240435",
       "author": "GR2024",
       "created": 1788854923,
-      "daysAgo": 6,
+      "daysAgo": 7,
       "budget": null,
       "techs": [
         "Go",
@@ -56,7 +69,7 @@
       "url": "https://www.v2ex.com/t/1239597",
       "author": "dacongm",
       "created": 1788535041,
-      "daysAgo": 10,
+      "daysAgo": 11,
       "budget": null,
       "techs": [
         "Go",
@@ -73,7 +86,7 @@
       "url": "https://www.v2ex.com/t/1239482",
       "author": "Foxalone",
       "created": 1788503124,
-      "daysAgo": 10,
+      "daysAgo": 12,
       "budget": null,
       "techs": [
         "Go",
@@ -87,23 +100,6 @@
       ],
       "urgent": false,
       "snippet": "Title: 商城项目二开, 需要对接。 PHP ，会沟通，理解需求的。远程有空的来。  URL Source: http://www.v2ex.com/t/1239482  Published Time: 2026-09-04T06:25:24Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http:/"
-    },
-    {
-      "id": 1239289,
-      "title": "安卓自动化脚本定制开发",
-      "url": "https://www.v2ex.com/t/1239289",
-      "author": "IITrend",
-      "created": 1788430253,
-      "daysAgo": 11,
-      "budget": null,
-      "techs": [
-        "Go"
-      ],
-      "contacts": [
-        "联系：vipterry"
-      ],
-      "urgent": false,
-      "snippet": "Title: 安卓自动化脚本定制开发  URL Source: http://www.v2ex.com/t/1239289  Published Time: 2026-09-03T10:10:53Z  Markdown Content: [![Image 1: IITrend](https://cdn.v2ex.com/avatar/011b/f640/545564_xlarge.png?m=16"
     }
   ],
   "techs": [
