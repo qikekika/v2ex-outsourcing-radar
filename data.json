@@ -1,38 +1,20 @@
 {
-  "timestamp": "2026-09-20T07:34:02.842847Z",
+  "timestamp": "2026-09-21T07:45:52.903597Z",
   "signals": [
-    {
-      "id": 1240655,
-      "title": "短期外包，找懂前端的设计师，或懂设计的前端",
-      "url": "https://www.v2ex.com/t/1240655",
-      "author": "yjpeminem0604",
-      "created": 1788929355,
-      "daysAgo": 11,
-      "budget": 50000,
-      "techs": [
-        "Go",
-        "JavaScript",
-        "AI"
-      ],
-      "contacts": [],
-      "urgent": false,
-      "snippet": "Title: 短期外包，找懂前端的设计师，或懂设计的前端  URL Source: http://www.v2ex.com/t/1240655  Published Time: 2026-09-09T04:49:15Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex.com/)"
-    },
     {
       "id": 1242664,
       "title": "做广告联盟的看过来，脚本怎么写？",
       "url": "https://www.v2ex.com/t/1242664",
       "author": "sotiery996006",
       "created": 1789616764,
-      "daysAgo": 3,
+      "daysAgo": 4,
       "budget": null,
       "techs": [
-        "Go",
-        "JavaScript"
+        "Go"
       ],
       "contacts": [],
       "urgent": false,
-      "snippet": "Title: 做广告联盟的看过来，脚本怎么写？  URL Source: http://www.v2ex.com/t/1242664  Published Time: 2026-09-17T03:46:04Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex.com/)[Sign"
+      "snippet": "Title: 做广告联盟的看过来，脚本怎么写？  URL Source: http://www.v2ex.com/t/1242664  Published Time: 2026-09-17T03:46:04Z  Markdown Content: [![Image 1: sotiery996006](https://cdn.v2ex.com/avatar/b576/8c17/633646_xlar"
     },
     {
       "id": 1242292,
@@ -40,7 +22,7 @@
       "url": "https://www.v2ex.com/t/1242292",
       "author": "zackkk",
       "created": 1789519661,
-      "daysAgo": 4,
+      "daysAgo": 5,
       "budget": null,
       "techs": [],
       "contacts": [],
@@ -53,7 +35,7 @@
       "url": "https://www.v2ex.com/t/1241995",
       "author": "rocketman13",
       "created": 1789403161,
-      "daysAgo": 5,
+      "daysAgo": 6,
       "budget": null,
       "techs": [
         "Go",
@@ -72,7 +54,7 @@
       "url": "https://www.v2ex.com/t/1240702",
       "author": "fan88",
       "created": 1788937893,
-      "daysAgo": 11,
+      "daysAgo": 12,
       "budget": null,
       "techs": [
         "Go",
@@ -84,11 +66,10 @@
     }
   ],
   "techs": [
-    "AI",
     "Go",
     "JavaScript",
     "逆向"
   ],
   "total_fetched": 10,
-  "total_signals": 5
+  "total_signals": 4
 }
