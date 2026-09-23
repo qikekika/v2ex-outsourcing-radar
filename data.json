@@ -1,24 +1,39 @@
 {
-  "timestamp": "2026-09-22T07:28:46.709764Z",
+  "timestamp": "2026-09-23T07:31:31.371464Z",
   "signals": [
+    {
+      "id": 1243882,
+      "title": "[寻开发团队] 实验室定制开发管理 + 自动化平台，需驻场深圳 3-6 个月，报实价",
+      "url": "https://www.v2ex.com/t/1243882",
+      "author": "eyeix",
+      "created": 1790045820,
+      "daysAgo": 1,
+      "budget": 2000000,
+      "techs": [
+        "Go",
+        "JavaScript"
+      ],
+      "contacts": [],
+      "urgent": true,
+      "snippet": "Title: [寻开发团队] 实验室定制开发管理 + 自动化平台，需驻场深圳 3-6 个月，报实价  URL Source: http://www.v2ex.com/t/1243882  Published Time: 2026-09-22T02:57:00Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home]("
+    },
     {
       "id": 1243919,
       "title": "有没有团队能做 h5 数藏平台的？",
       "url": "https://www.v2ex.com/t/1243919",
       "author": "linshenqi",
       "created": 1790051755,
-      "daysAgo": 0,
+      "daysAgo": 1,
       "budget": null,
       "techs": [
         "Go",
-        "JavaScript",
         "C"
       ],
       "contacts": [
         "联系：bGluc2hlbnFpQG91dGxvb2suY29t"
       ],
       "urgent": false,
-      "snippet": "Title: 有没有团队能做 h5 数藏平台的？  URL Source: http://www.v2ex.com/t/1243919  Published Time: 2026-09-22T04:35:55Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex.com/)[Sig"
+      "snippet": "Title: 有没有团队能做 h5 数藏平台的？  URL Source: http://www.v2ex.com/t/1243919  Published Time: 2026-09-22T04:35:55Z  Markdown Content: [![Image 1: linshenqi](https://cdn.v2ex.com/avatar/4662/5972/61423_large.pn"
     },
     {
       "id": 1242664,
@@ -26,15 +41,14 @@
       "url": "https://www.v2ex.com/t/1242664",
       "author": "sotiery996006",
       "created": 1789616764,
-      "daysAgo": 5,
+      "daysAgo": 6,
       "budget": null,
       "techs": [
-        "Go",
-        "JavaScript"
+        "Go"
       ],
       "contacts": [],
       "urgent": false,
-      "snippet": "Title: 做广告联盟的看过来，脚本怎么写？  URL Source: http://www.v2ex.com/t/1242664  Published Time: 2026-09-17T03:46:04Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex.com/)[Sign"
+      "snippet": "Title: 做广告联盟的看过来，脚本怎么写？  URL Source: http://www.v2ex.com/t/1242664  Published Time: 2026-09-17T03:46:04Z  Markdown Content: [![Image 1: sotiery996006](https://cdn.v2ex.com/avatar/b576/8c17/633646_xlar"
     },
     {
       "id": 1242292,
@@ -42,7 +56,7 @@
       "url": "https://www.v2ex.com/t/1242292",
       "author": "zackkk",
       "created": 1789519661,
-      "daysAgo": 6,
+      "daysAgo": 7,
       "budget": null,
       "techs": [],
       "contacts": [],
@@ -55,7 +69,7 @@
       "url": "https://www.v2ex.com/t/1241995",
       "author": "rocketman13",
       "created": 1789403161,
-      "daysAgo": 7,
+      "daysAgo": 8,
       "budget": null,
       "techs": [
         "Go",
@@ -76,5 +90,5 @@
     "逆向"
   ],
   "total_fetched": 10,
-  "total_signals": 4
+  "total_signals": 5
 }
