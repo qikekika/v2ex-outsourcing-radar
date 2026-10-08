@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-07T08:18:28.305336Z",
+  "timestamp": "2026-10-08T08:34:20.371517Z",
   "signals": [
     {
       "id": 1243882,
@@ -7,7 +7,7 @@
       "url": "https://www.v2ex.com/t/1243882",
       "author": "eyeix",
       "created": 1790045820,
-      "daysAgo": 15,
+      "daysAgo": 16,
       "budget": 2000000,
       "techs": [
         "Go",
@@ -23,7 +23,7 @@
       "url": "https://www.v2ex.com/t/1246348",
       "author": "sukhoi",
       "created": 1791082707,
-      "daysAgo": 3,
+      "daysAgo": 4,
       "budget": 200,
       "techs": [
         "Go",
@@ -38,12 +38,30 @@
       "snippet": "Title: 非常不错的运维兼职  URL Source: http://www.v2ex.com/t/1246348  Published Time: 2026-10-04T02:58:27Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex.com/)[Sign Up](ht"
     },
     {
+      "id": 1246821,
+      "title": "[私活]有一个 im 需求寻找一位 flutter 客户端",
+      "url": "https://www.v2ex.com/t/1246821",
+      "author": "winnerczwx",
+      "created": 1791375529,
+      "daysAgo": 0,
+      "budget": 150,
+      "techs": [
+        "AI",
+        "Android",
+        "iOS",
+        "Flutter"
+      ],
+      "contacts": [],
+      "urgent": false,
+      "snippet": "Title: [私活]有一个 im 需求寻找一位 flutter 客户端  URL Source: http://www.v2ex.com/t/1246821  Published Time: 2026-10-07T12:18:49Z  Markdown Content: 朋友有一个 im 需求, 我没有移动客户端开发经验, 寻找一位有移动客户端开发和上架经验的客户端合作  目标平台是 ios+安"
+    },
+    {
       "id": 1246651,
       "title": "招一个业余兼职小说/剧本写手",
       "url": "https://www.v2ex.com/t/1246651",
       "author": "uds9u32br",
       "created": 1791279193,
-      "daysAgo": 0,
+      "daysAgo": 1,
       "budget": null,
       "techs": [
         "Go",
@@ -60,7 +78,7 @@
       "url": "https://www.v2ex.com/t/1245868",
       "author": "ethbtc",
       "created": 1790760159,
-      "daysAgo": 6,
+      "daysAgo": 7,
       "budget": null,
       "techs": [
         "Go",
@@ -76,7 +94,7 @@
       "url": "https://www.v2ex.com/t/1244407",
       "author": "EnochDing",
       "created": 1790212326,
-      "daysAgo": 13,
+      "daysAgo": 14,
       "budget": null,
       "techs": [
         "Go",
@@ -87,49 +105,32 @@
       "snippet": "Title: UI、UE、美术  URL Source: http://www.v2ex.com/t/1244407  Published Time: 2026-09-24T01:12:06Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex.com/)[Sign Up](htt"
     },
     {
-      "id": 1244260,
-      "title": "1v1 线上口语陪练",
-      "url": "https://www.v2ex.com/t/1244260",
-      "author": "lvlajzhao1983",
-      "created": 1790146441,
-      "daysAgo": 14,
-      "budget": null,
-      "techs": [
-        "Go",
-        "JavaScript"
-      ],
-      "contacts": [
-        "微信：lvlajzhao"
-      ],
-      "urgent": false,
-      "snippet": "Title: 1v1 线上口语陪练  URL Source: http://www.v2ex.com/t/1244260  Published Time: 2026-09-23T06:54:01Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex.com/)[Sign Up](h"
-    },
-    {
       "id": 1243919,
       "title": "有没有团队能做 h5 数藏平台的？",
       "url": "https://www.v2ex.com/t/1243919",
       "author": "linshenqi",
       "created": 1790051755,
-      "daysAgo": 15,
+      "daysAgo": 16,
       "budget": null,
       "techs": [
         "Go",
-        "JavaScript",
         "C"
       ],
       "contacts": [
         "联系：bGluc2hlbnFpQG91dGxvb2suY29t"
       ],
       "urgent": false,
-      "snippet": "Title: 有没有团队能做 h5 数藏平台的？  URL Source: http://www.v2ex.com/t/1243919  Published Time: 2026-09-22T04:35:55Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex.com/)[Sig"
+      "snippet": "Title: 有没有团队能做 h5 数藏平台的？  URL Source: http://www.v2ex.com/t/1243919  Published Time: 2026-09-22T04:35:55Z  Markdown Content: [![Image 1: linshenqi](https://cdn.v2ex.com/avatar/4662/5972/61423_large.pn"
     }
   ],
   "techs": [
     "AI",
     "Android",
     "C",
+    "Flutter",
     "Go",
     "JavaScript",
+    "iOS",
     "硬件"
   ],
   "total_fetched": 10,
