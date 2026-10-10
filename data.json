@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-09T08:39:14.805120Z",
+  "timestamp": "2026-10-10T08:13:42.865344Z",
   "signals": [
     {
       "id": 1243882,
@@ -7,7 +7,7 @@
       "url": "https://www.v2ex.com/t/1243882",
       "author": "eyeix",
       "created": 1790045820,
-      "daysAgo": 17,
+      "daysAgo": 18,
       "budget": 2000000,
       "techs": [
         "Go",
@@ -23,11 +23,13 @@
       "url": "https://www.v2ex.com/t/1246348",
       "author": "sukhoi",
       "created": 1791082707,
-      "daysAgo": 5,
+      "daysAgo": 6,
       "budget": 200,
       "techs": [
-        "Go",
-        "JavaScript",
+        "Java",
+        "Spring",
+        "MySQL",
+        "Linux",
         "Android",
         "硬件"
       ],
@@ -35,7 +37,7 @@
         "VX: eWVsdnhpYW9nZQo"
       ],
       "urgent": false,
-      "snippet": "Title: 非常不错的运维兼职  URL Source: http://www.v2ex.com/t/1246348  Published Time: 2026-10-04T02:58:27Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex.com/)[Sign Up](ht"
+      "snippet": "Title: 非常不错的运维兼职  URL Source: http://www.v2ex.com/t/1246348  Published Time: 2026-10-04T02:58:27Z  Markdown Content: [![Image 1: sukhoi](https://cdn.v2ex.com/avatar/bf8f/1489/486010_xlarge.png?m=17017"
     },
     {
       "id": 1246821,
@@ -43,7 +45,7 @@
       "url": "https://www.v2ex.com/t/1246821",
       "author": "winnerczwx",
       "created": 1791375529,
-      "daysAgo": 1,
+      "daysAgo": 2,
       "budget": 150,
       "techs": [
         "AI",
@@ -61,7 +63,7 @@
       "url": "https://www.v2ex.com/t/1246651",
       "author": "uds9u32br",
       "created": 1791279193,
-      "daysAgo": 2,
+      "daysAgo": 3,
       "budget": 1,
       "techs": [
         "Go",
@@ -78,7 +80,7 @@
       "url": "https://www.v2ex.com/t/1245868",
       "author": "ethbtc",
       "created": 1790760159,
-      "daysAgo": 8,
+      "daysAgo": 9,
       "budget": null,
       "techs": [
         "Go",
@@ -94,7 +96,7 @@
       "url": "https://www.v2ex.com/t/1244407",
       "author": "EnochDing",
       "created": 1790212326,
-      "daysAgo": 15,
+      "daysAgo": 16,
       "budget": null,
       "techs": [
         "Go",
@@ -105,41 +107,22 @@
       "snippet": "Title: UI、UE、美术  URL Source: http://www.v2ex.com/t/1244407  Published Time: 2026-09-24T01:12:06Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex.com/)[Sign Up](htt"
     },
     {
-      "id": 1244260,
-      "title": "1v1 线上口语陪练",
-      "url": "https://www.v2ex.com/t/1244260",
-      "author": "lvlajzhao1983",
-      "created": 1790146441,
-      "daysAgo": 16,
-      "budget": null,
-      "techs": [
-        "Go",
-        "JavaScript"
-      ],
-      "contacts": [
-        "微信：lvlajzhao"
-      ],
-      "urgent": false,
-      "snippet": "Title: 1v1 线上口语陪练  URL Source: http://www.v2ex.com/t/1244260  Published Time: 2026-09-23T06:54:01Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex.com/)[Sign Up](h"
-    },
-    {
       "id": 1243919,
       "title": "有没有团队能做 h5 数藏平台的？",
       "url": "https://www.v2ex.com/t/1243919",
       "author": "linshenqi",
       "created": 1790051755,
-      "daysAgo": 17,
+      "daysAgo": 18,
       "budget": null,
       "techs": [
         "Go",
-        "JavaScript",
         "C"
       ],
       "contacts": [
         "联系：bGluc2hlbnFpQG91dGxvb2suY29t"
       ],
       "urgent": false,
-      "snippet": "Title: 有没有团队能做 h5 数藏平台的？  URL Source: http://www.v2ex.com/t/1243919  Published Time: 2026-09-22T04:35:55Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex.com/)[Sig"
+      "snippet": "Title: 有没有团队能做 h5 数藏平台的？  URL Source: http://www.v2ex.com/t/1243919  Published Time: 2026-09-22T04:35:55Z  Markdown Content: [![Image 1: linshenqi](https://cdn.v2ex.com/avatar/4662/5972/61423_large.pn"
     }
   ],
   "techs": [
@@ -148,10 +131,14 @@
     "C",
     "Flutter",
     "Go",
+    "Java",
     "JavaScript",
+    "Linux",
+    "MySQL",
+    "Spring",
     "iOS",
     "硬件"
   ],
   "total_fetched": 10,
-  "total_signals": 8
+  "total_signals": 7
 }
