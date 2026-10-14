@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-13T09:07:30.809061Z",
+  "timestamp": "2026-10-14T07:16:00.090370Z",
   "signals": [
     {
       "id": 1246348,
@@ -7,11 +7,13 @@
       "url": "https://www.v2ex.com/t/1246348",
       "author": "sukhoi",
       "created": 1791082707,
-      "daysAgo": 9,
+      "daysAgo": 10,
       "budget": 200,
       "techs": [
-        "Go",
-        "JavaScript",
+        "Java",
+        "Spring",
+        "MySQL",
+        "Linux",
         "Android",
         "硬件"
       ],
@@ -19,7 +21,7 @@
         "VX: eWVsdnhpYW9nZQo"
       ],
       "urgent": false,
-      "snippet": "Title: 非常不错的运维兼职  URL Source: http://www.v2ex.com/t/1246348  Published Time: 2026-10-04T02:58:27Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex.com/)[Sign Up](ht"
+      "snippet": "Title: 非常不错的运维兼职  URL Source: http://www.v2ex.com/t/1246348  Published Time: 2026-10-04T02:58:27Z  Markdown Content: [![Image 1: sukhoi](https://cdn.v2ex.com/avatar/bf8f/1489/486010_xlarge.png?m=17017"
     },
     {
       "id": 1246821,
@@ -27,7 +29,7 @@
       "url": "https://www.v2ex.com/t/1246821",
       "author": "winnerczwx",
       "created": 1791375529,
-      "daysAgo": 5,
+      "daysAgo": 6,
       "budget": 150,
       "techs": [
         "AI",
@@ -45,7 +47,7 @@
       "url": "https://www.v2ex.com/t/1246651",
       "author": "uds9u32br",
       "created": 1791279193,
-      "daysAgo": 6,
+      "daysAgo": 7,
       "budget": 1,
       "techs": [
         "Go",
@@ -57,12 +59,28 @@
       "snippet": "Title: 招一个业余兼职小说/剧本写手  URL Source: http://www.v2ex.com/t/1246651  Published Time: 2026-10-06T09:33:13Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex.com/)[Sign U"
     },
     {
+      "id": 1248305,
+      "title": "Wordpress B2B 站点主题设计制作 长期合作",
+      "url": "https://www.v2ex.com/t/1248305",
+      "author": "greatchenny",
+      "created": 1791858515,
+      "daysAgo": 1,
+      "budget": null,
+      "techs": [
+        "Go",
+        "JavaScript"
+      ],
+      "contacts": [],
+      "urgent": false,
+      "snippet": "Title: Wordpress B2B 站点主题设计制作 长期合作  URL Source: http://www.v2ex.com/t/1248305  Published Time: 2026-10-13T02:28:35Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex"
+    },
+    {
       "id": 1245868,
       "title": "有没有比较牛的 UI/UE 设计大拿！外包一个项目",
       "url": "https://www.v2ex.com/t/1245868",
       "author": "ethbtc",
       "created": 1790760159,
-      "daysAgo": 12,
+      "daysAgo": 13,
       "budget": null,
       "techs": [
         "Go",
@@ -78,7 +96,7 @@
       "url": "https://www.v2ex.com/t/1244407",
       "author": "EnochDing",
       "created": 1790212326,
-      "daysAgo": 19,
+      "daysAgo": 20,
       "budget": null,
       "techs": [
         "Go",
@@ -87,55 +105,21 @@
       "contacts": [],
       "urgent": false,
       "snippet": "Title: UI、UE、美术  URL Source: http://www.v2ex.com/t/1244407  Published Time: 2026-09-24T01:12:06Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex.com/)[Sign Up](htt"
-    },
-    {
-      "id": 1244260,
-      "title": "1v1 线上口语陪练",
-      "url": "https://www.v2ex.com/t/1244260",
-      "author": "lvlajzhao1983",
-      "created": 1790146441,
-      "daysAgo": 20,
-      "budget": null,
-      "techs": [
-        "Go",
-        "JavaScript"
-      ],
-      "contacts": [
-        "微信：lvlajzhao"
-      ],
-      "urgent": false,
-      "snippet": "Title: 1v1 线上口语陪练  URL Source: http://www.v2ex.com/t/1244260  Published Time: 2026-09-23T06:54:01Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex.com/)[Sign Up](h"
-    },
-    {
-      "id": 1243919,
-      "title": "有没有团队能做 h5 数藏平台的？",
-      "url": "https://www.v2ex.com/t/1243919",
-      "author": "linshenqi",
-      "created": 1790051755,
-      "daysAgo": 21,
-      "budget": null,
-      "techs": [
-        "Go",
-        "JavaScript",
-        "C"
-      ],
-      "contacts": [
-        "联系：bGluc2hlbnFpQG91dGxvb2suY29t"
-      ],
-      "urgent": false,
-      "snippet": "Title: 有没有团队能做 h5 数藏平台的？  URL Source: http://www.v2ex.com/t/1243919  Published Time: 2026-09-22T04:35:55Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex.com/)[Sig"
     }
   ],
   "techs": [
     "AI",
     "Android",
-    "C",
     "Flutter",
     "Go",
+    "Java",
     "JavaScript",
+    "Linux",
+    "MySQL",
+    "Spring",
     "iOS",
     "硬件"
   ],
   "total_fetched": 10,
-  "total_signals": 7
+  "total_signals": 6
 }
