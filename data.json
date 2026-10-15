@@ -1,19 +1,32 @@
 {
-  "timestamp": "2026-10-14T07:16:00.090370Z",
+  "timestamp": "2026-10-15T07:08:58.481037Z",
   "signals": [
+    {
+      "id": 1248751,
+      "title": "需要做个全网商品比价，主要是淘宝，京东，拼多多，参考返利网 APP 的全网比价。",
+      "url": "https://www.v2ex.com/t/1248751",
+      "author": "Foxalone",
+      "created": 1791964947,
+      "daysAgo": 0,
+      "budget": 10000,
+      "techs": [],
+      "contacts": [
+        "联系: R2F1ZGlfRm94"
+      ],
+      "urgent": false,
+      "snippet": "Title: 需要做个全网商品比价，主要是淘宝，京东，拼多多，参考返利网 APP 的全网比价。  URL Source: http://www.v2ex.com/t/1248751  Published Time: 2026-10-14T08:02:27Z  Markdown Content: 要求：有做过类似项目的，有演示最好，只做比价即可。需要与平台的商品进行价格比较。  有意联系: R2F1"
+    },
     {
       "id": 1246348,
       "title": "非常不错的运维兼职",
       "url": "https://www.v2ex.com/t/1246348",
       "author": "sukhoi",
       "created": 1791082707,
-      "daysAgo": 10,
+      "daysAgo": 11,
       "budget": 200,
       "techs": [
-        "Java",
-        "Spring",
-        "MySQL",
-        "Linux",
+        "Go",
+        "JavaScript",
         "Android",
         "硬件"
       ],
@@ -21,7 +34,7 @@
         "VX: eWVsdnhpYW9nZQo"
       ],
       "urgent": false,
-      "snippet": "Title: 非常不错的运维兼职  URL Source: http://www.v2ex.com/t/1246348  Published Time: 2026-10-04T02:58:27Z  Markdown Content: [![Image 1: sukhoi](https://cdn.v2ex.com/avatar/bf8f/1489/486010_xlarge.png?m=17017"
+      "snippet": "Title: 非常不错的运维兼职  URL Source: http://www.v2ex.com/t/1246348  Published Time: 2026-10-04T02:58:27Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex.com/)[Sign Up](ht"
     },
     {
       "id": 1246821,
@@ -29,7 +42,7 @@
       "url": "https://www.v2ex.com/t/1246821",
       "author": "winnerczwx",
       "created": 1791375529,
-      "daysAgo": 6,
+      "daysAgo": 7,
       "budget": 150,
       "techs": [
         "AI",
@@ -47,7 +60,7 @@
       "url": "https://www.v2ex.com/t/1246651",
       "author": "uds9u32br",
       "created": 1791279193,
-      "daysAgo": 7,
+      "daysAgo": 8,
       "budget": 1,
       "techs": [
         "Go",
@@ -64,7 +77,7 @@
       "url": "https://www.v2ex.com/t/1248305",
       "author": "greatchenny",
       "created": 1791858515,
-      "daysAgo": 1,
+      "daysAgo": 2,
       "budget": null,
       "techs": [
         "Go",
@@ -80,7 +93,7 @@
       "url": "https://www.v2ex.com/t/1245868",
       "author": "ethbtc",
       "created": 1790760159,
-      "daysAgo": 13,
+      "daysAgo": 14,
       "budget": null,
       "techs": [
         "Go",
@@ -96,7 +109,7 @@
       "url": "https://www.v2ex.com/t/1244407",
       "author": "EnochDing",
       "created": 1790212326,
-      "daysAgo": 20,
+      "daysAgo": 21,
       "budget": null,
       "techs": [
         "Go",
@@ -112,14 +125,10 @@
     "Android",
     "Flutter",
     "Go",
-    "Java",
     "JavaScript",
-    "Linux",
-    "MySQL",
-    "Spring",
     "iOS",
     "硬件"
   ],
   "total_fetched": 10,
-  "total_signals": 6
+  "total_signals": 7
 }
