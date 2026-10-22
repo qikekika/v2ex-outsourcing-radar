@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T07:15:58.138038Z",
+  "timestamp": "2026-10-22T07:17:21.259250Z",
   "signals": [
     {
       "id": 1250006,
@@ -7,16 +7,14 @@
       "url": "https://www.v2ex.com/t/1250006",
       "author": "congminhcap246",
       "created": 1792390685,
-      "daysAgo": 2,
+      "daysAgo": 3,
       "budget": 10000,
       "techs": [
-        "Go",
-        "JavaScript",
         "AI"
       ],
       "contacts": [],
       "urgent": false,
-      "snippet": "Title: 兄弟萌给个报价建议  URL Source: http://www.v2ex.com/t/1250006  Published Time: 2026-10-19T06:18:05Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex.com/)[Sign Up](ht"
+      "snippet": "Title: 兄弟萌给个报价建议  URL Source: http://www.v2ex.com/t/1250006  Published Time: 2026-10-19T06:18:05Z  Markdown Content: 朋友想做个物流报关报价系统，我就接了友情价 10000 ，设计开发我全包，服务器域名 oss 那些都是她出，主要是有了 AI 我才敢接现在快交付了她也很满意，钱也转我"
     },
     {
       "id": 1248751,
@@ -24,7 +22,7 @@
       "url": "https://www.v2ex.com/t/1248751",
       "author": "Foxalone",
       "created": 1791964947,
-      "daysAgo": 6,
+      "daysAgo": 7,
       "budget": 10000,
       "techs": [],
       "contacts": [
@@ -39,7 +37,7 @@
       "url": "https://www.v2ex.com/t/1246821",
       "author": "winnerczwx",
       "created": 1791375529,
-      "daysAgo": 13,
+      "daysAgo": 14,
       "budget": 150,
       "techs": [
         "AI",
@@ -57,7 +55,7 @@
       "url": "https://www.v2ex.com/t/1246651",
       "author": "uds9u32br",
       "created": 1791279193,
-      "daysAgo": 14,
+      "daysAgo": 15,
       "budget": 1,
       "techs": [
         "Go",
@@ -74,7 +72,7 @@
       "url": "https://www.v2ex.com/t/1250226",
       "author": "xuenqiang",
       "created": 1792463885,
-      "daysAgo": 1,
+      "daysAgo": 2,
       "budget": null,
       "techs": [
         "Go",
@@ -90,7 +88,7 @@
       "url": "https://www.v2ex.com/t/1249881",
       "author": "ilcn",
       "created": 1792374753,
-      "daysAgo": 2,
+      "daysAgo": 3,
       "budget": null,
       "techs": [
         "Go",
@@ -106,7 +104,7 @@
       "url": "https://www.v2ex.com/t/1248305",
       "author": "greatchenny",
       "created": 1791858515,
-      "daysAgo": 8,
+      "daysAgo": 9,
       "budget": null,
       "techs": [
         "Go",
