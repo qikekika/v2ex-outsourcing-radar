@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-22T07:17:21.259250Z",
+  "timestamp": "2026-10-23T07:10:00.709673Z",
   "signals": [
     {
       "id": 1250006,
@@ -7,14 +7,16 @@
       "url": "https://www.v2ex.com/t/1250006",
       "author": "congminhcap246",
       "created": 1792390685,
-      "daysAgo": 3,
+      "daysAgo": 4,
       "budget": 10000,
       "techs": [
+        "Go",
+        "JavaScript",
         "AI"
       ],
       "contacts": [],
       "urgent": false,
-      "snippet": "Title: 兄弟萌给个报价建议  URL Source: http://www.v2ex.com/t/1250006  Published Time: 2026-10-19T06:18:05Z  Markdown Content: 朋友想做个物流报关报价系统，我就接了友情价 10000 ，设计开发我全包，服务器域名 oss 那些都是她出，主要是有了 AI 我才敢接现在快交付了她也很满意，钱也转我"
+      "snippet": "Title: 兄弟萌给个报价建议  URL Source: http://www.v2ex.com/t/1250006  Published Time: 2026-10-19T06:18:05Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex.com/)[Sign Up](ht"
     },
     {
       "id": 1248751,
@@ -22,7 +24,7 @@
       "url": "https://www.v2ex.com/t/1248751",
       "author": "Foxalone",
       "created": 1791964947,
-      "daysAgo": 7,
+      "daysAgo": 8,
       "budget": 10000,
       "techs": [],
       "contacts": [
@@ -32,39 +34,68 @@
       "snippet": "Title: 需要做个全网商品比价，主要是淘宝，京东，拼多多，参考返利网 APP 的全网比价。  URL Source: http://www.v2ex.com/t/1248751  Published Time: 2026-10-14T08:02:27Z  Markdown Content: 要求：有做过类似项目的，有演示最好，只做比价即可。需要与平台的商品进行价格比较。  有意联系: R2F1"
     },
     {
-      "id": 1246821,
-      "title": "[私活]有一个 im 需求寻找一位 flutter 客户端",
-      "url": "https://www.v2ex.com/t/1246821",
-      "author": "winnerczwx",
-      "created": 1791375529,
-      "daysAgo": 14,
-      "budget": 150,
-      "techs": [
-        "AI",
-        "Android",
-        "iOS",
-        "Flutter"
-      ],
+      "id": 1249881,
+      "title": "现有 CMS 项目需要远程兼职开发及 UI 设计各一名",
+      "url": "https://www.v2ex.com/t/1249881",
+      "author": "ilcn",
+      "created": 1792374753,
+      "daysAgo": 4,
+      "budget": 300,
+      "techs": [],
       "contacts": [],
       "urgent": false,
-      "snippet": "Title: [私活]有一个 im 需求寻找一位 flutter 客户端  URL Source: http://www.v2ex.com/t/1246821  Published Time: 2026-10-07T12:18:49Z  Markdown Content: 朋友有一个 im 需求, 我没有移动客户端开发经验, 寻找一位有移动客户端开发和上架经验的客户端合作  目标平台是 ios+安"
+      "snippet": "Title: 现有 CMS 项目需要远程兼职开发及 UI 设计各一名  URL Source: http://www.v2ex.com/t/1249881  Published Time: 2026-10-19T01:52:33Z  Markdown Content: ![Image 1: hipc1211](https://cdn.v2ex.com/avatar/8ad9/6ce2/171568"
     },
     {
-      "id": 1246651,
-      "title": "招一个业余兼职小说/剧本写手",
-      "url": "https://www.v2ex.com/t/1246651",
-      "author": "uds9u32br",
-      "created": 1791279193,
-      "daysAgo": 15,
-      "budget": 1,
+      "id": 1251169,
+      "title": "外包需求，求一个资深测试人员！有没有资深测试或者测试团队啊",
+      "url": "https://www.v2ex.com/t/1251169",
+      "author": "builderBig",
+      "created": 1792722528,
+      "daysAgo": 0,
+      "budget": null,
       "techs": [
         "Go",
         "JavaScript",
         "AI"
       ],
+      "contacts": [
+        "TG：YmFzZWNvZGVidWlsZGVy"
+      ],
+      "urgent": false,
+      "snippet": "Title: 外包需求，求一个资深测试人员！有没有资深测试或者测试团队啊  URL Source: http://www.v2ex.com/t/1251169  Published Time: 2026-10-23T02:28:48Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2"
+    },
+    {
+      "id": 1251064,
+      "title": "现有软件项目需要远程兼职 PM 一名",
+      "url": "https://www.v2ex.com/t/1251064",
+      "author": "ilcn",
+      "created": 1792678067,
+      "daysAgo": 0,
+      "budget": null,
+      "techs": [],
       "contacts": [],
       "urgent": false,
-      "snippet": "Title: 招一个业余兼职小说/剧本写手  URL Source: http://www.v2ex.com/t/1246651  Published Time: 2026-10-06T09:33:13Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex.com/)[Sign U"
+      "snippet": "Title: 现有软件项目需要远程兼职 PM 一名  URL Source: http://www.v2ex.com/t/1251064  Published Time: 2026-10-22T14:07:47Z  Markdown Content: [](https://www.digitalocean.com/?refcode=1b51f1a7651d)  **[About](http://w"
+    },
+    {
+      "id": 1250952,
+      "title": "[成交拿 10% 佣金] 找渠道合作伙伴，推荐企业客户",
+      "url": "https://www.v2ex.com/t/1250952",
+      "author": "aaazwy",
+      "created": 1792653847,
+      "daysAgo": 0,
+      "budget": null,
+      "techs": [
+        "Go",
+        "JavaScript",
+        "AI"
+      ],
+      "contacts": [
+        "vx：TBIYTC1769"
+      ],
+      "urgent": false,
+      "snippet": "Title: [成交拿 10% 佣金] 找渠道合作伙伴，推荐企业客户  URL Source: http://www.v2ex.com/t/1250952  Published Time: 2026-10-22T07:24:07Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex"
     },
     {
       "id": 1250226,
@@ -72,7 +103,7 @@
       "url": "https://www.v2ex.com/t/1250226",
       "author": "xuenqiang",
       "created": 1792463885,
-      "daysAgo": 2,
+      "daysAgo": 3,
       "budget": null,
       "techs": [
         "Go",
@@ -81,47 +112,12 @@
       "contacts": [],
       "urgent": false,
       "snippet": "Title: 服装落地生产项目  URL Source: http://www.v2ex.com/t/1250226  Published Time: 2026-10-20T02:38:05Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex.com/)[Sign Up](htt"
-    },
-    {
-      "id": 1249881,
-      "title": "现有 CMS 项目需要远程兼职开发及 UI 设计各一名",
-      "url": "https://www.v2ex.com/t/1249881",
-      "author": "ilcn",
-      "created": 1792374753,
-      "daysAgo": 3,
-      "budget": null,
-      "techs": [
-        "Go",
-        "AI"
-      ],
-      "contacts": [],
-      "urgent": false,
-      "snippet": "Title: 现有 CMS 项目需要远程兼职开发及 UI 设计各一名  URL Source: http://www.v2ex.com/t/1249881  Published Time: 2026-10-19T01:52:33Z  Markdown Content: [![Image 1: ilcn](https://cdn.v2ex.com/gravatar/c84729d45718fbe8a"
-    },
-    {
-      "id": 1248305,
-      "title": "Wordpress B2B 站点主题设计制作 长期合作",
-      "url": "https://www.v2ex.com/t/1248305",
-      "author": "greatchenny",
-      "created": 1791858515,
-      "daysAgo": 9,
-      "budget": null,
-      "techs": [
-        "Go",
-        "JavaScript"
-      ],
-      "contacts": [],
-      "urgent": false,
-      "snippet": "Title: Wordpress B2B 站点主题设计制作 长期合作  URL Source: http://www.v2ex.com/t/1248305  Published Time: 2026-10-13T02:28:35Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex"
     }
   ],
   "techs": [
     "AI",
-    "Android",
-    "Flutter",
     "Go",
-    "JavaScript",
-    "iOS"
+    "JavaScript"
   ],
   "total_fetched": 10,
   "total_signals": 7
