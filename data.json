@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-28T08:02:16.886275Z",
+  "timestamp": "2026-10-29T08:12:20.983393Z",
   "signals": [
     {
       "id": 1250006,
@@ -7,29 +7,16 @@
       "url": "https://www.v2ex.com/t/1250006",
       "author": "congminhcap246",
       "created": 1792390685,
-      "daysAgo": 9,
+      "daysAgo": 10,
       "budget": 10000,
       "techs": [
+        "Go",
+        "JavaScript",
         "AI"
       ],
       "contacts": [],
       "urgent": false,
-      "snippet": "Title: 兄弟萌给个报价建议  URL Source: http://www.v2ex.com/t/1250006  Published Time: 2026-10-19T06:18:05Z  Markdown Content: 朋友想做个物流报关报价系统，我就接了友情价 10000 ，设计开发我全包，服务器域名 oss 那些都是她出，主要是有了 AI 我才敢接现在快交付了她也很满意，钱也转我"
-    },
-    {
-      "id": 1248751,
-      "title": "需要做个全网商品比价，主要是淘宝，京东，拼多多，参考返利网 APP 的全网比价。",
-      "url": "https://www.v2ex.com/t/1248751",
-      "author": "Foxalone",
-      "created": 1791964947,
-      "daysAgo": 13,
-      "budget": 10000,
-      "techs": [],
-      "contacts": [
-        "联系: R2F1ZGlfRm94"
-      ],
-      "urgent": false,
-      "snippet": "Title: 需要做个全网商品比价，主要是淘宝，京东，拼多多，参考返利网 APP 的全网比价。  URL Source: http://www.v2ex.com/t/1248751  Published Time: 2026-10-14T08:02:27Z  Markdown Content: 要求：有做过类似项目的，有演示最好，只做比价即可。需要与平台的商品进行价格比较。  有意联系: R2F1"
+      "snippet": "Title: 兄弟萌给个报价建议  URL Source: http://www.v2ex.com/t/1250006  Published Time: 2026-10-19T06:18:05Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex.com/)[Sign Up](ht"
     },
     {
       "id": 1249881,
@@ -37,7 +24,7 @@
       "url": "https://www.v2ex.com/t/1249881",
       "author": "ilcn",
       "created": 1792374753,
-      "daysAgo": 9,
+      "daysAgo": 10,
       "budget": 300,
       "techs": [],
       "contacts": [],
@@ -45,12 +32,28 @@
       "snippet": "Title: 现有 CMS 项目需要远程兼职开发及 UI 设计各一名  URL Source: http://www.v2ex.com/t/1249881  Published Time: 2026-10-19T01:52:33Z  Markdown Content: ![Image 1: hipc1211](https://cdn.v2ex.com/avatar/8ad9/6ce2/171568"
     },
     {
+      "id": 1252568,
+      "title": "我想美国本土的人开车测试采集数据，哪里能找到人合作？",
+      "url": "https://www.v2ex.com/t/1252568",
+      "author": "yuzhangalva",
+      "created": 1793172810,
+      "daysAgo": 1,
+      "budget": 89,
+      "techs": [
+        "Go",
+        "JavaScript"
+      ],
+      "contacts": [],
+      "urgent": false,
+      "snippet": "Title: 我想美国本土的人开车测试采集数据，哪里能找到人合作？  URL Source: http://www.v2ex.com/t/1252568  Published Time: 2026-10-28T07:33:30Z  Markdown Content: [](http://www.v2ex.com/ \"way to explore\")  [Home](http://www.v2ex."
+    },
+    {
       "id": 1251169,
       "title": "外包需求，求一个资深测试人员！有没有资深测试或者测试团队啊",
       "url": "https://www.v2ex.com/t/1251169",
       "author": "builderBig",
       "created": 1792722528,
-      "daysAgo": 5,
+      "daysAgo": 6,
       "budget": null,
       "techs": [
         "Go",
@@ -70,7 +73,7 @@
       "url": "https://www.v2ex.com/t/1251064",
       "author": "ilcn",
       "created": 1792678067,
-      "daysAgo": 5,
+      "daysAgo": 6,
       "budget": null,
       "techs": [],
       "contacts": [],
@@ -83,7 +86,7 @@
       "url": "https://www.v2ex.com/t/1250952",
       "author": "aaazwy",
       "created": 1792653847,
-      "daysAgo": 6,
+      "daysAgo": 7,
       "budget": null,
       "techs": [
         "Go",
@@ -102,7 +105,7 @@
       "url": "https://www.v2ex.com/t/1250226",
       "author": "xuenqiang",
       "created": 1792463885,
-      "daysAgo": 8,
+      "daysAgo": 9,
       "budget": null,
       "techs": [
         "Go",
