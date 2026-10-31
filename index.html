@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>V2EX 外包买家信号雷达 | 实时追踪真实预算需求</title>
+<meta name="description" content="聚合 V2EX 外包节点真实买家帖子，提取预算、技术栈、联系方式、紧急度。零KYC，USDC(Base)小费罐维护。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root { --bg:#0a0f1a; --card:#111827; --border:#1e293b; --text:#e2e8f0; --muted:#64748b; --accent:#22d3ee; --accent-dim:#0891b2; --green:#34d399; --amber:#f59e0b; --red:#f87171; --radius:12px; }
+* { box-sizing:border-box; margin:0; padding:0; }
+body { font-family:'Noto Sans SC',sans-serif; background:var(--bg); color:var(--text); min-height:100vh; line-height:1.6; }
+.mono { font-family:'JetBrains Mono',monospace; }
+.container { max-width:1200px; margin:0 auto; padding:24px; }
+header { display:flex; justify-content:space-between; align-items:center; margin-bottom:32px; padding-bottom:16px; border-bottom:1px solid var(--border); flex-wrap:wrap; gap:16px; }
+h1 { font-size:1.75rem; font-weight:700; background:linear-gradient(135deg,var(--accent),#a855f7); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+.subtitle { color:var(--muted); font-size:0.9rem; }
+.controls { display:flex; gap:12px; flex-wrap:wrap; margin-bottom:24px; }
+select, input { background:var(--card); border:1px solid var(--border); color:var(--text); padding:10px 14px; border-radius:8px; font-size:0.9rem; min-width:160px; }
+input { flex:1; min-width:200px; }
+.stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:12px; margin-bottom:24px; }
+.stat { background:var(--card); border:1px solid var(--border); border-radius:var(--radius); padding:16px; text-align:center; }
+.stat-value { font-size:1.5rem; font-weight:700; color:var(--accent); }
+.stat-label { font-size:0.75rem; color:var(--muted); text-transform:uppercase; letter-spacing:0.05em; }
+.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(380px,1fr)); gap:16px; }
+.card { background:var(--card); border:1px solid var(--border); border-radius:var(--radius); padding:20px; transition:all 0.2s; position:relative; overflow:hidden; }
+.card:hover { border-color:var(--accent-dim); box-shadow:0 8px 32px rgba(34,211,238,0.08); }
+.card::before { content:''; position:absolute; top:0; left:0; right:0; height:3px; background:linear-gradient(90deg,var(--accent),#a855f7); opacity:0; transition:0.2s; }
+.card:hover::before { opacity:1; }
+.card-header { display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:12px; gap:12px; }
+.card-title { font-weight:600; font-size:1rem; line-height:1.4; word-break:break-word; }
+.card-budget { background:rgba(52,211,153,0.15); color:var(--green); padding:4px 10px; border-radius:6px; font-size:0.75rem; font-weight:600; white-space:nowrap; }
+.card-meta { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:12px; font-size:0.8rem; }
+.tag { background:rgba(34,211,238,0.1); color:var(--accent); padding:3px 8px; border-radius:4px; font-size:0.7rem; }
+.tag-urgent { background:rgba(248,113,113,0.15); color:var(--red); }
+.tag-contact { background:rgba(245,158,11,0.15); color:var(--amber); }
+.card-desc { color:var(--muted); font-size:0.85rem; margin-bottom:16px; line-height:1.5; max-height:60px; overflow:hidden; }
+.card-footer { display:flex; justify-content:space-between; align-items:center; padding-top:12px; border-top:1px solid var(--border); font-size:0.75rem; color:var(--muted); }
+.card-link { color:var(--accent); text-decoration:none; font-weight:500; }
+.card-link:hover { text-decoration:underline; }
+.empty { text-align:center; padding:60px 20px; color:var(--muted); }
+.tip-jar { background:linear-gradient(135deg,rgba(34,211,238,0.1),rgba(168,85,247,0.1)); border:1px solid var(--accent-dim); border-radius:var(--radius); padding:24px; margin-top:32px; text-align:center; }
+.tip-jar h3 { margin-bottom:8px; color:var(--accent); }
+.tip-jar p { color:var(--muted); margin-bottom:16px; font-size:0.9rem; }
+.tip-address { background:var(--bg); border:1px solid var(--border); border-radius:8px; padding:12px 16px; font-family:'Jet Brains Mono',monospace; font-size:0.85rem; color:var(--accent); word-break:break-all; display:inline-flex; align-items:center; gap:8px; }
+.copy-btn { background:var(--accent); color:var(--bg); border:none; padding:6px 12px; border-radius:6px; font-size:0.75rem; font-weight:600; cursor:pointer; }
+.copy-btn:hover { background:var(--accent-dim); }
+.refresh-info { text-align:center; color:var(--muted); font-size:0.8rem; margin-top:16px; }
+@media (max-width:600px) { .grid { grid-template-columns:1fr; } .card { padding:16px; } }
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<div>
+<h1>V2EX 外包买家信号雷达</h1>
+<div class="subtitle">实时聚合 <a href="https://www.v2ex.com/go/outsourcing" target="_blank" style="color:var(--accent);">V2EX 外包节点</a> 真实买家帖子 · 提取预算·技术栈·联系方式·紧急度</div>
+</div>
+<div class="mono" id="lastUpdate">更新中...</div>
+</header>
+
+<div class="controls">
+<select id="filterBudget"><option value="">所有预算</option><option value="has">有明确预算</option><option value="high">高预算(>5k)</option><option value="medium">中预算(1-5k)</option><option value="low">低预算(<1k)</option></select>
+<select id="filterTech"><option value="">所有技术栈</option></select>
+<input type="text" id="searchInput" placeholder="搜索关键词：标题、描述、技术栈...">
+</div>
+
+<div class="stats">
+<div class="stat"><div class="stat-value" id="statTotal">0</div><div class="stat-label">活跃信号</div></div>
+<div class="stat"><div class="stat-value" id="statBudget">0</div><div class="stat-label">含预算</div></div>
+<div class="stat"><div class="stat-value" id="statUrgent">0</div><div class="stat-label">紧急/近期</div></div>
+<div class="stat"><div class="stat-value" id="statContact">0</div><div class="stat-label">含联系方式</div></div>
+</div>
+
+<div class="grid" id="grid"></div>
+
+<div class="empty" id="emptyState" style="display:none;">暂无匹配信号，调整筛选条件或等待下次更新</div>
+
+<div class="tip-jar">
+<h3>💡 这个工具对你有帮助？</h3>
+<p>零成本运行，零KYC，靠社区支持维护。如果帮你省下找单时间，请考虑打赏 1 USDC (Base网络)：</p>
+<div class="tip-address">
+<span id="tipAddress">0xYourUSDCBaseAddressHere</span>
+<button class="copy-btn" onclick="copyAddress()">复制地址</button>
+</div>
+<p style="margin-top:12px;font-size:0.75rem;color:var(--muted);">地址由维护者配置 · 100% 到账无手续费 · Base 网络 USDC</p>
+</div>
+
+<div class="refresh-info">
+数据来源：V2EX 公开 RSS/JSON Feed → Jina AI 解析 → 本地关键词提取 · 每日自动更新 (GitHub Actions) ·
+<a href="https://github.com/qikekika/v2ex-outsourcing-radar" target="_blank" style="color:var(--accent);">开源代码</a> ·
+<a href="https://www.v2ex.com/go/outsourcing" target="_blank" style="color:var(--accent);">原始节点</a>
+</div>
+</div>
+
+<script>
+const STORAGE_KEY = 'v2ex_radar_data_v1';
+let allSignals = [];
+const techSet = new Set();
+
+function parseBudget(text) {
+const patterns = [
+/(\d+(?:\.\d+)?)\s*[kK万]/g,
+/[预算报价价格薪资]\s*[:：]?\s*(\d+(?:\.\d+)?)\s*[kK万]?/gi,
+/(\d+(?:\.\d+)?)\s*[-~到]\s*(\d+(?:\.\d+)?)\s*[kK万]/gi,
+/¥\s*(\d+(?:,\d{3})*(?:\.\d+)?)/g,
+/￥\s*(\d+(?:,\d{3})*(?:\.\d+)?)/g
+];
+let maxVal = 0;
+for (const p of patterns) {
+let m;
+while ((m = p.exec(text)) !== null) {
+const val = parseFloat(m[1].replace(/,/g,''));
+const unit = m[0].includes('万') || m[0].includes('k') || m[0].includes('K') ? 10000 : 1;
+maxVal = Math.max(maxVal, val * unit);
+}
+}
+return maxVal > 0 ? maxVal : null;
+}
+
+function extractTech(text) {
+const techs = ['Python','Java','Go','Golang','C++','C#','JavaScript','TypeScript','React','Vue','Next.js','Node.js','Django','Flask','FastAPI','Spring','MySQL','PostgreSQL','Redis','Docker','Kubernetes','AWS','GCP','Azure','Linux','爬虫','逆向','AI','LLM','大模型','算法','区块链','Web3','Solidity','Rust','PHP','Laravel','Android','iOS','Flutter','React Native','Electron','Qt','C','嵌入式','硬件','FPGA','Verilog'];
+return techs.filter(t => new RegExp(t,'i').test(text));
+}
+
+function extractContact(text) {
+const patterns = [
+/(?:微信|wx|wechat|vx)[:：]\s*([a-zA-Z0-9_-]{6,20})/gi,
+/(?:QQ|qq)[:：]\s*(\d{5,12})/gi,
+/(?:邮箱|email|mail)[:：]\s*([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})/gi,
+/(?:Telegram|TG|tg)[:：]\s*(@?[a-zA-Z0-9_]{4,32})/gi,
+/(?:Base64|base64)[:：]\s*([A-Za-z0-9+/=]{20,})/gi,
+/(?:联系|contact)[:：]\s*([^\s\n]{4,50})/gi
+];
+const contacts = [];
+for (const p of patterns) {
+let m;
+while ((m = p.exec(text)) !== null) { contacts.push(m[0]); }
+}
+return [...new Set(contacts)];
+}
+
+function extractUrgency(text) {
+const urgent = ['急','急需','马上','立即','尽快','ASAP','urgent','即刻','火速'];
+return urgent.some(w => new RegExp(w,'i').test(text));
+}
+
+function isBuyerPost(title, content) {
+const buyerKeywords = ['求','找人','找个','谁能','需要','急需','外包','兼职','接单','预算','报价','多少钱','雇佣','招募','招人','发包','甲方','买家','looking for','need','hire','budget','quote','freelance','outsourcing','RFP','help wanted'];
+const sellerKeywords = ['接单','承接','提供','服务','出售','代做','代写','外包服务','团队','工作室','个人开发','全栈','独立开发','demo','作品集','案例','报价单','价目表'];
+const text = (title + ' ' + content).toLowerCase();
+const buyerScore = buyerKeywords.filter(w => text.includes(w.toLowerCase())).length;
+const sellerScore = sellerKeywords.filter(w => text.includes(w.toLowerCase())).length;
+return buyerScore > sellerScore;
+}
+
+function processItem(item) {
+const title = item.title || '';
+const content = item.content || item.content_rendered || '';
+const url = item.url || `https://www.v2ex.com/t/${item.id}`;
+const created = item.created * 1000 || Date.now();
+const author = item.member?.username || 'unknown';
+
+if (!isBuyerPost(title, content)) return null;
+
+const fullText = title + '\n' + content;
+const budget = parseBudget(fullText);
+const techs = extractTech(fullText);
+const contacts = extractContact(fullText);
+const urgent = extractUrgency(fullText);
+const daysAgo = Math.floor((Date.now() - created) / 86400000);
+
+techs.forEach(t => techSet.add(t));
+
+return {
+id: item.id,
+title,
+url,
+author,
+created,
+daysAgo,
+budget,
+techs,
+contacts,
+urgent,
+snippet: content.slice(0,200).replace(/\n/g,' ')
+};
+}
+
+async function loadData() {
+try {
+const res = await fetch('data.json');
+if (res.ok) {
+const data = await res.json();
+allSignals = data.signals || [];
+data.techs.forEach(t => techSet.add(t));
+populateTechFilter();
+render();
+updateStats();
+document.getElementById('lastUpdate').textContent = `最后更新: ${new Date(data.timestamp).toLocaleString('zh-CN')}`;
+return;
+}
+} catch(e) {}
+try {
+const rssRes = await fetch('https://r.jina.ai/https://www.v2ex.com/feed/outsourcing.xml');
+const xml = await rssRes.text();
+parseRSS(xml);
+} catch(e) {
+document.getElementById('lastUpdate').textContent = '数据加载失败，请刷新重试';
+}
+}
+
+function parseRSS(xml) {
+const items = [];
+const itemRegex = /<item>([\s\S]*?)<\/item>/g;
+let match;
+while ((match = itemRegex.exec(xml)) !== null) {
+const itemXml = match[1];
+const title = (itemXml.match(/<title><!\[CDATA\[(.*?)\]\]><\/title>/) || itemXml.match(/<title>(.*?)<\/title>/))?.[1] || '';
+const link = (itemXml.match(/<link>(.*?)<\/link>/))?.[1] || '';
+const desc = (itemXml.match(/<description><!\[CDATA\[(.*?)\]\]><\/description>/) || itemXml.match(/<description>(.*?)<\/description>/))?.[1] || '';
+const pubDate = (itemXml.match(/<pubDate>(.*?)<\/pubDate>/))?.[1] || '';
+const guid = (itemXml.match(/<guid[^>]*>(.*?)<\/guid>/))?.[1] || '';
+const idMatch = link.match(/\/t\/(\d+)/);
+const id = idMatch ? parseInt(idMatch[1]) : Date.now();
+const created = pubDate ? new Date(pubDate).getTime() / 1000 : Date.now() / 1000;
+items.push({id, title, content: desc, url: link, created, member:{username:'v2ex'}});
+}
+items.forEach(item => {
+const processed = processItem(item);
+if (processed) allSignals.push(processed);
+});
+populateTechFilter();
+render();
+updateStats();
+document.getElementById('lastUpdate').textContent = `最后更新: ${new Date().toLocaleString('zh-CN')} (实时解析)`;
+}
+
+function populateTechFilter() {
+const select = document.getElementById('filterTech');
+const sorted = [...techSet].sort();
+sorted.forEach(t => {
+const opt = document.createElement('option');
+opt.value = t;
+opt.textContent = t;
+select.appendChild(opt);
+});
+}
+
+function render() {
+const grid = document.getElementById('grid');
+const empty = document.getElementById('emptyState');
+const budgetFilter = document.getElementById('filterBudget').value;
+const techFilter = document.getElementById('filterTech').value;
+const search = document.getElementById('searchInput').value.toLowerCase();
+
+let filtered = allSignals.filter(s => {
+if (budgetFilter === 'has' && !s.budget) return false;
+if (budgetFilter === 'high' && (!s.budget || s.budget < 5000)) return false;
+if (budgetFilter === 'medium' && (!s.budget || s.budget < 1000 || s.budget >= 5000)) return false;
+if (budgetFilter === 'low' && (!s.budget || s.budget >= 1000)) return false;
+if (techFilter && !s.techs.includes(techFilter)) return false;
+if (search && !s.title.toLowerCase().includes(search) && !s.snippet.toLowerCase().includes(search) && !s.techs.some(t => t.toLowerCase().includes(search))) return false;
+return true;
+});
+
+filtered.sort((a,b) => {
+if (a.urgent !== b.urgent) return b.urgent - a.urgent;
+if ((a.budget||0) !== (b.budget||0)) return (b.budget||0) - (a.budget||0);
+return b.created - a.created;
+});
+
+if (filtered.length === 0) {
+grid.innerHTML = '';
+empty.style.display = 'block';
+return;
+}
+empty.style.display = 'none';
+grid.innerHTML = filtered.map(s => `
+<div class="card">
+<div class="card-header">
+<h3 class="card-title">${escapeHtml(s.title)}</h3>
+${s.budget ? `<span class="card-budget">¥${(s.budget/10000).toFixed(s.budget%10000===0?0:1)}万</span>` : ''}
+</div>
+<div class="card-meta">
+${s.techs.slice(0,5).map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('')}
+${s.urgent ? '<span class="tag tag-urgent">⚡ 紧急</span>' : ''}
+${s.contacts.length ? '<span class="tag tag-contact">📞 有联系方式</span>' : ''}
+<span class="tag">${s.daysAgo === 0 ? '今天' : s.daysAgo + '天前'}</span>
+</div>
+<div class="card-desc">${escapeHtml(s.snippet)}...</div>
+<div class="card-footer">
+<span>@${escapeHtml(s.author)}</span>
+<a class="card-link" href="${s.url}" target="_blank">查看原帖 →</a>
+</div>
+</div>
+`).join('');
+}
+
+function updateStats() {
+const withBudget = allSignals.filter(s => s.budget).length;
+const urgent = allSignals.filter(s => s.urgent).length;
+const withContact = allSignals.filter(s => s.contacts.length).length;
+document.getElementById('statTotal').textContent = allSignals.length;
+document.getElementById('statBudget').textContent = withBudget;
+document.getElementById('statUrgent').textContent = urgent;
+document.getElementById('statContact').textContent = withContact;
+}
+
+function escapeHtml(str) {
+return str.replace(/[&<>"']/g, c => ({'&':'&','<':'<','>':'>','"':'"',"'":'''}[c]));
+}
+
+function copyAddress() {
+const addr = document.getElementById('tipAddress').textContent;
+navigator.clipboard.writeText(addr);
+const btn = document.querySelector('.copy-btn');
+const orig = btn.textContent;
+btn.textContent = '已复制!';
+setTimeout(() => btn.textContent = orig, 1500);
+}
+
+document.getElementById('filterBudget').addEventListener('change', render);
+document.getElementById('filterTech').addEventListener('change', render);
+document.getElementById('searchInput').addEventListener('input', render);
+
+loadData();
+</script>
+</body>
+</html>
