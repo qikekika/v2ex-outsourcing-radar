@@ -1,40 +1,55 @@
 {
-  "timestamp": "2026-11-01T08:54:08.724016Z",
+  "timestamp": "2026-11-02T09:01:25.981968Z",
   "signals": [
+    {
+      "id": 1250006,
+      "title": "兄弟萌给个报价建议",
+      "url": "https://www.v2ex.com/t/1250006",
+      "author": "congminhcap246",
+      "created": 1792390685,
+      "daysAgo": 14,
+      "budget": 10000,
+      "techs": [
+        "Go",
+        "JavaScript",
+        "AI"
+      ],
+      "contacts": [],
+      "urgent": true,
+      "snippet": "Title: 兄弟萌给个报价建议  URL Source: http://www.v2ex.com/t/1250006  Final URL: https://www.v2ex.com/t/1250006  Published Time: 2026-10-19T06:18:05Z  Markdown Content: [](https://www.v2ex.com/ \"way to explore"
+    },
+    {
+      "id": 1251064,
+      "title": "现有软件项目需要远程兼职 PM 一名",
+      "url": "https://www.v2ex.com/t/1251064",
+      "author": "ilcn",
+      "created": 1792678067,
+      "daysAgo": 10,
+      "budget": 10000,
+      "techs": [
+        "AI"
+      ],
+      "contacts": [],
+      "urgent": false,
+      "snippet": "Title: 现有软件项目需要远程兼职 PM 一名  URL Source: http://www.v2ex.com/t/1251064  Final URL: https://www.v2ex.com/t/1251064  Published Time: 2026-10-22T14:07:47Z  Markdown Content: 蒲公英 - 🚀上传App→生成二维码→扫码安装  [![Ima"
+    },
     {
       "id": 1253005,
       "title": "私活外包 项目二开 Java , 对接过云迹机器人配送的来.",
       "url": "https://www.v2ex.com/t/1253005",
       "author": "Foxalone",
       "created": 1793288966,
-      "daysAgo": 2,
-      "budget": 10000,
+      "daysAgo": 3,
+      "budget": null,
       "techs": [
         "Java",
-        "Go",
-        "JavaScript"
+        "Go"
       ],
       "contacts": [
         "联系: R2F1ZGlfRm94"
       ],
       "urgent": false,
-      "snippet": "Title: 私活外包 项目二开 Java , 对接过云迹机器人配送的来.  URL Source: http://www.v2ex.com/t/1253005  Final URL: https://www.v2ex.com/t/1253005  Published Time: 2026-10-29T15:49:26Z  Markdown Content: [](https://www.v2ex"
-    },
-    {
-      "id": 1252568,
-      "title": "我想美国本土的人开车测试采集数据，哪里能找到人合作？",
-      "url": "https://www.v2ex.com/t/1252568",
-      "author": "yuzhangalva",
-      "created": 1793172810,
-      "daysAgo": 4,
-      "budget": 89,
-      "techs": [
-        "Go",
-        "JavaScript"
-      ],
-      "contacts": [],
-      "urgent": false,
-      "snippet": "Title: 我想美国本土的人开车测试采集数据，哪里能找到人合作？  URL Source: http://www.v2ex.com/t/1252568  Final URL: https://www.v2ex.com/t/1252568  Published Time: 2026-10-28T07:33:30Z  Markdown Content: [](https://www.v2ex.com"
+      "snippet": "Title: 私活外包 项目二开 Java , 对接过云迹机器人配送的来.  URL Source: http://www.v2ex.com/t/1253005  Final URL: https://www.v2ex.com/t/1253005  Published Time: 2026-10-29T15:49:26Z  Markdown Content: [![Image 1: Foxalon"
     },
     {
       "id": 1251169,
@@ -42,13 +57,11 @@
       "url": "https://www.v2ex.com/t/1251169",
       "author": "builderBig",
       "created": 1792722528,
-      "daysAgo": 9,
+      "daysAgo": 10,
       "budget": null,
       "techs": [
         "Go",
         "JavaScript",
-        "AWS",
-        "Azure",
         "AI"
       ],
       "contacts": [
@@ -58,28 +71,12 @@
       "snippet": "Title: 外包需求，求一个资深测试人员！有没有资深测试或者测试团队啊  URL Source: http://www.v2ex.com/t/1251169  Final URL: https://www.v2ex.com/t/1251169  Published Time: 2026-10-23T02:28:48Z  Markdown Content: [](https://www.v2ex."
     },
     {
-      "id": 1251064,
-      "title": "现有软件项目需要远程兼职 PM 一名",
-      "url": "https://www.v2ex.com/t/1251064",
-      "author": "ilcn",
-      "created": 1792678067,
-      "daysAgo": 9,
-      "budget": null,
-      "techs": [
-        "Go",
-        "AI"
-      ],
-      "contacts": [],
-      "urgent": false,
-      "snippet": "Title: 现有软件项目需要远程兼职 PM 一名  URL Source: http://www.v2ex.com/t/1251064  Final URL: https://www.v2ex.com/t/1251064  Published Time: 2026-10-22T14:07:47Z  Markdown Content: 开户找老倔驴靠谱！  [![Image 1](https://"
-    },
-    {
       "id": 1250952,
       "title": "[成交拿 10% 佣金] 找渠道合作伙伴，推荐企业客户",
       "url": "https://www.v2ex.com/t/1250952",
       "author": "aaazwy",
       "created": 1792653847,
-      "daysAgo": 10,
+      "daysAgo": 11,
       "budget": null,
       "techs": [
         "Go",
@@ -98,11 +95,12 @@
       "url": "https://www.v2ex.com/t/1250226",
       "author": "xuenqiang",
       "created": 1792463885,
-      "daysAgo": 12,
+      "daysAgo": 13,
       "budget": null,
       "techs": [
         "Go",
-        "JavaScript"
+        "JavaScript",
+        "AI"
       ],
       "contacts": [],
       "urgent": false,
@@ -111,8 +109,6 @@
   ],
   "techs": [
     "AI",
-    "AWS",
-    "Azure",
     "Go",
     "Java",
     "JavaScript"
