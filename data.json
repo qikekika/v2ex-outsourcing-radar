@@ -1,37 +1,36 @@
 {
-  "timestamp": "2026-11-02T09:01:25.981968Z",
+  "timestamp": "2026-11-03T09:10:33.151429Z",
   "signals": [
     {
-      "id": 1250006,
-      "title": "兄弟萌给个报价建议",
-      "url": "https://www.v2ex.com/t/1250006",
-      "author": "congminhcap246",
-      "created": 1792390685,
-      "daysAgo": 14,
-      "budget": 10000,
+      "id": 1252568,
+      "title": "我想美国本土的人开车测试采集数据，哪里能找到人合作？",
+      "url": "https://www.v2ex.com/t/1252568",
+      "author": "yuzhangalva",
+      "created": 1793172810,
+      "daysAgo": 6,
+      "budget": 89,
       "techs": [
         "Go",
-        "JavaScript",
-        "AI"
-      ],
-      "contacts": [],
-      "urgent": true,
-      "snippet": "Title: 兄弟萌给个报价建议  URL Source: http://www.v2ex.com/t/1250006  Final URL: https://www.v2ex.com/t/1250006  Published Time: 2026-10-19T06:18:05Z  Markdown Content: [](https://www.v2ex.com/ \"way to explore"
-    },
-    {
-      "id": 1251064,
-      "title": "现有软件项目需要远程兼职 PM 一名",
-      "url": "https://www.v2ex.com/t/1251064",
-      "author": "ilcn",
-      "created": 1792678067,
-      "daysAgo": 10,
-      "budget": 10000,
-      "techs": [
-        "AI"
+        "JavaScript"
       ],
       "contacts": [],
       "urgent": false,
-      "snippet": "Title: 现有软件项目需要远程兼职 PM 一名  URL Source: http://www.v2ex.com/t/1251064  Final URL: https://www.v2ex.com/t/1251064  Published Time: 2026-10-22T14:07:47Z  Markdown Content: 蒲公英 - 🚀上传App→生成二维码→扫码安装  [![Ima"
+      "snippet": "Title: 我想美国本土的人开车测试采集数据，哪里能找到人合作？  URL Source: http://www.v2ex.com/t/1252568  Final URL: https://www.v2ex.com/t/1252568  Published Time: 2026-10-28T07:33:30Z  Markdown Content: [](https://www.v2ex.com"
+    },
+    {
+      "id": 1254174,
+      "title": "手势生成项目",
+      "url": "https://www.v2ex.com/t/1254174",
+      "author": "Djaron",
+      "created": 1793694636,
+      "daysAgo": 0,
+      "budget": null,
+      "techs": [
+        "Go"
+      ],
+      "contacts": [],
+      "urgent": false,
+      "snippet": "Title: 手势生成项目  URL Source: http://www.v2ex.com/t/1254174  Final URL: https://www.v2ex.com/t/1254174  Published Time: 2026-11-03T08:30:36Z  Markdown Content: 开户找老倔驴靠谱！  [![Image 1](https://cid.v2ex.pro"
     },
     {
       "id": 1253005,
@@ -39,7 +38,7 @@
       "url": "https://www.v2ex.com/t/1253005",
       "author": "Foxalone",
       "created": 1793288966,
-      "daysAgo": 3,
+      "daysAgo": 4,
       "budget": null,
       "techs": [
         "Java",
@@ -52,23 +51,20 @@
       "snippet": "Title: 私活外包 项目二开 Java , 对接过云迹机器人配送的来.  URL Source: http://www.v2ex.com/t/1253005  Final URL: https://www.v2ex.com/t/1253005  Published Time: 2026-10-29T15:49:26Z  Markdown Content: [![Image 1: Foxalon"
     },
     {
-      "id": 1251169,
-      "title": "外包需求，求一个资深测试人员！有没有资深测试或者测试团队啊",
-      "url": "https://www.v2ex.com/t/1251169",
-      "author": "builderBig",
-      "created": 1792722528,
-      "daysAgo": 10,
+      "id": 1251064,
+      "title": "现有软件项目需要远程兼职 PM 一名",
+      "url": "https://www.v2ex.com/t/1251064",
+      "author": "ilcn",
+      "created": 1792678067,
+      "daysAgo": 11,
       "budget": null,
       "techs": [
         "Go",
-        "JavaScript",
         "AI"
       ],
-      "contacts": [
-        "TG：YmFzZWNvZGVidWlsZGVy"
-      ],
+      "contacts": [],
       "urgent": false,
-      "snippet": "Title: 外包需求，求一个资深测试人员！有没有资深测试或者测试团队啊  URL Source: http://www.v2ex.com/t/1251169  Final URL: https://www.v2ex.com/t/1251169  Published Time: 2026-10-23T02:28:48Z  Markdown Content: [](https://www.v2ex."
+      "snippet": "Title: 现有软件项目需要远程兼职 PM 一名  URL Source: http://www.v2ex.com/t/1251064  Final URL: https://www.v2ex.com/t/1251064  Published Time: 2026-10-22T14:07:47Z  Markdown Content: 👉 图灵云融合CDN加速，大厂资源、比价全网  [![Imag"
     },
     {
       "id": 1250952,
@@ -76,7 +72,7 @@
       "url": "https://www.v2ex.com/t/1250952",
       "author": "aaazwy",
       "created": 1792653847,
-      "daysAgo": 11,
+      "daysAgo": 12,
       "budget": null,
       "techs": [
         "Go",
@@ -88,23 +84,6 @@
       ],
       "urgent": false,
       "snippet": "Title: [成交拿 10% 佣金] 找渠道合作伙伴，推荐企业客户  URL Source: http://www.v2ex.com/t/1250952  Final URL: https://www.v2ex.com/t/1250952  Published Time: 2026-10-22T07:24:07Z  Markdown Content: [](https://www.v2ex.co"
-    },
-    {
-      "id": 1250226,
-      "title": "服装落地生产项目",
-      "url": "https://www.v2ex.com/t/1250226",
-      "author": "xuenqiang",
-      "created": 1792463885,
-      "daysAgo": 13,
-      "budget": null,
-      "techs": [
-        "Go",
-        "JavaScript",
-        "AI"
-      ],
-      "contacts": [],
-      "urgent": false,
-      "snippet": "Title: 服装落地生产项目  URL Source: http://www.v2ex.com/t/1250226  Final URL: https://www.v2ex.com/t/1250226  Published Time: 2026-10-20T02:38:05Z  Markdown Content: [](https://www.v2ex.com/ \"way to explore\""
     }
   ],
   "techs": [
@@ -114,5 +93,5 @@
     "JavaScript"
   ],
   "total_fetched": 10,
-  "total_signals": 6
+  "total_signals": 5
 }
