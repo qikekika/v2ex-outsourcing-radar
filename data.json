@@ -1,13 +1,47 @@
 {
-  "timestamp": "2026-11-03T09:10:33.151429Z",
+  "timestamp": "2026-11-04T08:46:50.999100Z",
   "signals": [
+    {
+      "id": 1253747,
+      "title": "一个会员系统报价 1.5W，客户嫌贵",
+      "url": "https://www.v2ex.com/t/1253747",
+      "author": "jedeft",
+      "created": 1793591716,
+      "daysAgo": 2,
+      "budget": 20000,
+      "techs": [
+        "Go",
+        "JavaScript",
+        "AI"
+      ],
+      "contacts": [],
+      "urgent": true,
+      "snippet": "Title: 一个会员系统报价 1.5W，客户嫌贵  URL Source: http://www.v2ex.com/t/1253747  Final URL: https://www.v2ex.com/t/1253747  Published Time: 2026-11-02T03:55:16Z  Markdown Content: [](https://www.v2ex.com/ \"way t"
+    },
+    {
+      "id": 1254174,
+      "title": "手势生成项目",
+      "url": "https://www.v2ex.com/t/1254174",
+      "author": "Djaron",
+      "created": 1793694636,
+      "daysAgo": 1,
+      "budget": null,
+      "techs": [
+        "Go",
+        "JavaScript",
+        "AI"
+      ],
+      "contacts": [],
+      "urgent": true,
+      "snippet": "Title: 手势生成项目  URL Source: http://www.v2ex.com/t/1254174  Final URL: https://www.v2ex.com/t/1254174  Published Time: 2026-11-03T08:30:36Z  Markdown Content: [](https://www.v2ex.com/ \"way to explore\") "
+    },
     {
       "id": 1252568,
       "title": "我想美国本土的人开车测试采集数据，哪里能找到人合作？",
       "url": "https://www.v2ex.com/t/1252568",
       "author": "yuzhangalva",
       "created": 1793172810,
-      "daysAgo": 6,
+      "daysAgo": 7,
       "budget": 89,
       "techs": [
         "Go",
@@ -18,45 +52,12 @@
       "snippet": "Title: 我想美国本土的人开车测试采集数据，哪里能找到人合作？  URL Source: http://www.v2ex.com/t/1252568  Final URL: https://www.v2ex.com/t/1252568  Published Time: 2026-10-28T07:33:30Z  Markdown Content: [](https://www.v2ex.com"
     },
     {
-      "id": 1254174,
-      "title": "手势生成项目",
-      "url": "https://www.v2ex.com/t/1254174",
-      "author": "Djaron",
-      "created": 1793694636,
+      "id": 1254211,
+      "title": "电力交易 Top 企业，寻找背靠背合作模式的软件公司",
+      "url": "https://www.v2ex.com/t/1254211",
+      "author": "hyperprice",
+      "created": 1793699324,
       "daysAgo": 0,
-      "budget": null,
-      "techs": [
-        "Go"
-      ],
-      "contacts": [],
-      "urgent": false,
-      "snippet": "Title: 手势生成项目  URL Source: http://www.v2ex.com/t/1254174  Final URL: https://www.v2ex.com/t/1254174  Published Time: 2026-11-03T08:30:36Z  Markdown Content: 开户找老倔驴靠谱！  [![Image 1](https://cid.v2ex.pro"
-    },
-    {
-      "id": 1253005,
-      "title": "私活外包 项目二开 Java , 对接过云迹机器人配送的来.",
-      "url": "https://www.v2ex.com/t/1253005",
-      "author": "Foxalone",
-      "created": 1793288966,
-      "daysAgo": 4,
-      "budget": null,
-      "techs": [
-        "Java",
-        "Go"
-      ],
-      "contacts": [
-        "联系: R2F1ZGlfRm94"
-      ],
-      "urgent": false,
-      "snippet": "Title: 私活外包 项目二开 Java , 对接过云迹机器人配送的来.  URL Source: http://www.v2ex.com/t/1253005  Final URL: https://www.v2ex.com/t/1253005  Published Time: 2026-10-29T15:49:26Z  Markdown Content: [![Image 1: Foxalon"
-    },
-    {
-      "id": 1251064,
-      "title": "现有软件项目需要远程兼职 PM 一名",
-      "url": "https://www.v2ex.com/t/1251064",
-      "author": "ilcn",
-      "created": 1792678067,
-      "daysAgo": 11,
       "budget": null,
       "techs": [
         "Go",
@@ -64,14 +65,50 @@
       ],
       "contacts": [],
       "urgent": false,
-      "snippet": "Title: 现有软件项目需要远程兼职 PM 一名  URL Source: http://www.v2ex.com/t/1251064  Final URL: https://www.v2ex.com/t/1251064  Published Time: 2026-10-22T14:07:47Z  Markdown Content: 👉 图灵云融合CDN加速，大厂资源、比价全网  [![Imag"
+      "snippet": "Title: 电力交易 Top 企业，寻找背靠背合作模式的软件公司  URL Source: http://www.v2ex.com/t/1254211  Final URL: https://www.v2ex.com/t/1254211  Published Time: 2026-11-03T09:48:44Z  Markdown Content: EasyAPI · AI 大模型企业级网关｜官"
     },
     {
-      "id": 1250952,
-      "title": "[成交拿 10% 佣金] 找渠道合作伙伴，推荐企业客户",
-      "url": "https://www.v2ex.com/t/1250952",
-      "author": "aaazwy",
-      "created": 1792653847,
+      "id": 1254013,
+      "title": "设计接单，不接也行",
+      "url": "https://www.v2ex.com/t/1254013",
+      "author": "sudanlan",
+      "created": 1793669545,
+      "daysAgo": 1,
+      "budget": null,
+      "techs": [
+        "AI"
+      ],
+      "contacts": [
+        "VX: siterloo"
+      ],
+      "urgent": false,
+      "snippet": "Title: 设计接单，不接也行  URL Source: http://www.v2ex.com/t/1254013  Final URL: https://www.v2ex.com/t/1254013  Published Time: 2026-11-03T01:32:25Z  Markdown Content: [![Image 1: sudanlan](https://cdn.v2ex.c"
+    },
+    {
+      "id": 1253005,
+      "title": "私活外包 项目二开 Java , 对接过云迹机器人配送的来.",
+      "url": "https://www.v2ex.com/t/1253005",
+      "author": "Foxalone",
+      "created": 1793288966,
+      "daysAgo": 5,
+      "budget": null,
+      "techs": [
+        "Java",
+        "React",
+        "React Native"
+      ],
+      "contacts": [
+        "联系: R2F1ZGlfRm94"
+      ],
+      "urgent": false,
+      "snippet": "Title: 私活外包 项目二开 Java , 对接过云迹机器人配送的来.  URL Source: http://www.v2ex.com/t/1253005  Final URL: https://www.v2ex.com/t/1253005  Published Time: 2026-10-29T15:49:26Z  Markdown Content: Pakta：React Native "
+    },
+    {
+      "id": 1251169,
+      "title": "外包需求，求一个资深测试人员！有没有资深测试或者测试团队啊",
+      "url": "https://www.v2ex.com/t/1251169",
+      "author": "builderBig",
+      "created": 1792722528,
       "daysAgo": 12,
       "budget": null,
       "techs": [
@@ -80,18 +117,35 @@
         "AI"
       ],
       "contacts": [
-        "vx：TBIYTC1769"
+        "TG：YmFzZWNvZGVidWlsZGVy"
       ],
       "urgent": false,
-      "snippet": "Title: [成交拿 10% 佣金] 找渠道合作伙伴，推荐企业客户  URL Source: http://www.v2ex.com/t/1250952  Final URL: https://www.v2ex.com/t/1250952  Published Time: 2026-10-22T07:24:07Z  Markdown Content: [](https://www.v2ex.co"
+      "snippet": "Title: 外包需求，求一个资深测试人员！有没有资深测试或者测试团队啊  URL Source: http://www.v2ex.com/t/1251169  Final URL: https://www.v2ex.com/t/1251169  Published Time: 2026-10-23T02:28:48Z  Markdown Content: [](https://www.v2ex."
+    },
+    {
+      "id": 1251064,
+      "title": "现有软件项目需要远程兼职 PM 一名",
+      "url": "https://www.v2ex.com/t/1251064",
+      "author": "ilcn",
+      "created": 1792678067,
+      "daysAgo": 12,
+      "budget": null,
+      "techs": [
+        "AI"
+      ],
+      "contacts": [],
+      "urgent": false,
+      "snippet": "Title: 现有软件项目需要远程兼职 PM 一名  URL Source: http://www.v2ex.com/t/1251064  Final URL: https://www.v2ex.com/t/1251064  Published Time: 2026-10-22T14:07:47Z  Markdown Content: 券商万一免五开户活动火热进行中！  [![Image 1](h"
     }
   ],
   "techs": [
     "AI",
     "Go",
     "Java",
-    "JavaScript"
+    "JavaScript",
+    "React",
+    "React Native"
   ],
   "total_fetched": 10,
-  "total_signals": 5
+  "total_signals": 8
 }
