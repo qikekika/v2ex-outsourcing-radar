@@ -1,13 +1,29 @@
 {
-  "timestamp": "2026-11-04T08:46:50.999100Z",
+  "timestamp": "2026-11-05T09:10:47.439341Z",
   "signals": [
+    {
+      "id": 1254211,
+      "title": "电力交易 Top 企业，寻找背靠背合作模式的软件公司",
+      "url": "https://www.v2ex.com/t/1254211",
+      "author": "hyperprice",
+      "created": 1793699324,
+      "daysAgo": 1,
+      "budget": 60000,
+      "techs": [
+        "Go",
+        "JavaScript"
+      ],
+      "contacts": [],
+      "urgent": false,
+      "snippet": "Title: 电力交易 Top 企业，寻找背靠背合作模式的软件公司  URL Source: http://www.v2ex.com/t/1254211  Final URL: https://www.v2ex.com/t/1254211  Published Time: 2026-11-03T09:48:44Z  Markdown Content: [](https://www.v2ex.com"
+    },
     {
       "id": 1253747,
       "title": "一个会员系统报价 1.5W，客户嫌贵",
       "url": "https://www.v2ex.com/t/1253747",
       "author": "jedeft",
       "created": 1793591716,
-      "daysAgo": 2,
+      "daysAgo": 3,
       "budget": 20000,
       "techs": [
         "Go",
@@ -15,25 +31,8 @@
         "AI"
       ],
       "contacts": [],
-      "urgent": true,
+      "urgent": false,
       "snippet": "Title: 一个会员系统报价 1.5W，客户嫌贵  URL Source: http://www.v2ex.com/t/1253747  Final URL: https://www.v2ex.com/t/1253747  Published Time: 2026-11-02T03:55:16Z  Markdown Content: [](https://www.v2ex.com/ \"way t"
-    },
-    {
-      "id": 1254174,
-      "title": "手势生成项目",
-      "url": "https://www.v2ex.com/t/1254174",
-      "author": "Djaron",
-      "created": 1793694636,
-      "daysAgo": 1,
-      "budget": null,
-      "techs": [
-        "Go",
-        "JavaScript",
-        "AI"
-      ],
-      "contacts": [],
-      "urgent": true,
-      "snippet": "Title: 手势生成项目  URL Source: http://www.v2ex.com/t/1254174  Final URL: https://www.v2ex.com/t/1254174  Published Time: 2026-11-03T08:30:36Z  Markdown Content: [](https://www.v2ex.com/ \"way to explore\") "
     },
     {
       "id": 1252568,
@@ -41,7 +40,7 @@
       "url": "https://www.v2ex.com/t/1252568",
       "author": "yuzhangalva",
       "created": 1793172810,
-      "daysAgo": 7,
+      "daysAgo": 8,
       "budget": 89,
       "techs": [
         "Go",
@@ -52,20 +51,36 @@
       "snippet": "Title: 我想美国本土的人开车测试采集数据，哪里能找到人合作？  URL Source: http://www.v2ex.com/t/1252568  Final URL: https://www.v2ex.com/t/1252568  Published Time: 2026-10-28T07:33:30Z  Markdown Content: [](https://www.v2ex.com"
     },
     {
-      "id": 1254211,
-      "title": "电力交易 Top 企业，寻找背靠背合作模式的软件公司",
-      "url": "https://www.v2ex.com/t/1254211",
-      "author": "hyperprice",
-      "created": 1793699324,
+      "id": 1254575,
+      "title": "寻找做过运动设备的开发者，有项目需要进行合作",
+      "url": "https://www.v2ex.com/t/1254575",
+      "author": "crazyu",
+      "created": 1793811344,
       "daysAgo": 0,
+      "budget": null,
+      "techs": [],
+      "contacts": [],
+      "urgent": false,
+      "snippet": "主要是纵跳垫产品，测试运动相关的数据\r \r 联系方式：Y3Jhenl1X2NoYW5n\r 备注：运动设备开发"
+    },
+    {
+      "id": 1254174,
+      "title": "手势生成项目",
+      "url": "https://www.v2ex.com/t/1254174",
+      "author": "Djaron",
+      "created": 1793694636,
+      "daysAgo": 2,
       "budget": null,
       "techs": [
         "Go",
+        "JavaScript",
+        "AWS",
+        "Azure",
         "AI"
       ],
       "contacts": [],
       "urgent": false,
-      "snippet": "Title: 电力交易 Top 企业，寻找背靠背合作模式的软件公司  URL Source: http://www.v2ex.com/t/1254211  Final URL: https://www.v2ex.com/t/1254211  Published Time: 2026-11-03T09:48:44Z  Markdown Content: EasyAPI · AI 大模型企业级网关｜官"
+      "snippet": "Title: 手势生成项目  URL Source: http://www.v2ex.com/t/1254174  Final URL: https://www.v2ex.com/t/1254174  Published Time: 2026-11-03T08:30:36Z  Markdown Content: [](https://www.v2ex.com/ \"way to explore\") "
     },
     {
       "id": 1254013,
@@ -73,7 +88,7 @@
       "url": "https://www.v2ex.com/t/1254013",
       "author": "sudanlan",
       "created": 1793669545,
-      "daysAgo": 1,
+      "daysAgo": 2,
       "budget": null,
       "techs": [
         "AI"
@@ -90,62 +105,26 @@
       "url": "https://www.v2ex.com/t/1253005",
       "author": "Foxalone",
       "created": 1793288966,
-      "daysAgo": 5,
+      "daysAgo": 6,
       "budget": null,
       "techs": [
-        "Java",
-        "React",
-        "React Native"
+        "Java"
       ],
       "contacts": [
         "联系: R2F1ZGlfRm94"
       ],
       "urgent": false,
-      "snippet": "Title: 私活外包 项目二开 Java , 对接过云迹机器人配送的来.  URL Source: http://www.v2ex.com/t/1253005  Final URL: https://www.v2ex.com/t/1253005  Published Time: 2026-10-29T15:49:26Z  Markdown Content: Pakta：React Native "
-    },
-    {
-      "id": 1251169,
-      "title": "外包需求，求一个资深测试人员！有没有资深测试或者测试团队啊",
-      "url": "https://www.v2ex.com/t/1251169",
-      "author": "builderBig",
-      "created": 1792722528,
-      "daysAgo": 12,
-      "budget": null,
-      "techs": [
-        "Go",
-        "JavaScript",
-        "AI"
-      ],
-      "contacts": [
-        "TG：YmFzZWNvZGVidWlsZGVy"
-      ],
-      "urgent": false,
-      "snippet": "Title: 外包需求，求一个资深测试人员！有没有资深测试或者测试团队啊  URL Source: http://www.v2ex.com/t/1251169  Final URL: https://www.v2ex.com/t/1251169  Published Time: 2026-10-23T02:28:48Z  Markdown Content: [](https://www.v2ex."
-    },
-    {
-      "id": 1251064,
-      "title": "现有软件项目需要远程兼职 PM 一名",
-      "url": "https://www.v2ex.com/t/1251064",
-      "author": "ilcn",
-      "created": 1792678067,
-      "daysAgo": 12,
-      "budget": null,
-      "techs": [
-        "AI"
-      ],
-      "contacts": [],
-      "urgent": false,
-      "snippet": "Title: 现有软件项目需要远程兼职 PM 一名  URL Source: http://www.v2ex.com/t/1251064  Final URL: https://www.v2ex.com/t/1251064  Published Time: 2026-10-22T14:07:47Z  Markdown Content: 券商万一免五开户活动火热进行中！  [![Image 1](h"
+      "snippet": "Title: 私活外包 项目二开 Java , 对接过云迹机器人配送的来.  URL Source: http://www.v2ex.com/t/1253005  Final URL: https://www.v2ex.com/t/1253005  Published Time: 2026-10-29T15:49:26Z  Markdown Content: 双11 VPS拼团活动 美国VPS 9"
     }
   ],
   "techs": [
     "AI",
+    "AWS",
+    "Azure",
     "Go",
     "Java",
-    "JavaScript",
-    "React",
-    "React Native"
+    "JavaScript"
   ],
   "total_fetched": 10,
-  "total_signals": 8
+  "total_signals": 7
 }
