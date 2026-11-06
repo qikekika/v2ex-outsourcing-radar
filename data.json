@@ -1,54 +1,44 @@
 {
-  "timestamp": "2026-11-05T09:10:47.439341Z",
+  "timestamp": "2026-11-06T09:02:13.931128Z",
   "signals": [
-    {
-      "id": 1254211,
-      "title": "电力交易 Top 企业，寻找背靠背合作模式的软件公司",
-      "url": "https://www.v2ex.com/t/1254211",
-      "author": "hyperprice",
-      "created": 1793699324,
-      "daysAgo": 1,
-      "budget": 60000,
-      "techs": [
-        "Go",
-        "JavaScript"
-      ],
-      "contacts": [],
-      "urgent": false,
-      "snippet": "Title: 电力交易 Top 企业，寻找背靠背合作模式的软件公司  URL Source: http://www.v2ex.com/t/1254211  Final URL: https://www.v2ex.com/t/1254211  Published Time: 2026-11-03T09:48:44Z  Markdown Content: [](https://www.v2ex.com"
-    },
     {
       "id": 1253747,
       "title": "一个会员系统报价 1.5W，客户嫌贵",
       "url": "https://www.v2ex.com/t/1253747",
       "author": "jedeft",
       "created": 1793591716,
-      "daysAgo": 3,
-      "budget": 20000,
-      "techs": [
-        "Go",
-        "JavaScript",
-        "AI"
-      ],
+      "daysAgo": 4,
+      "budget": 1,
+      "techs": [],
       "contacts": [],
       "urgent": false,
-      "snippet": "Title: 一个会员系统报价 1.5W，客户嫌贵  URL Source: http://www.v2ex.com/t/1253747  Final URL: https://www.v2ex.com/t/1253747  Published Time: 2026-11-02T03:55:16Z  Markdown Content: [](https://www.v2ex.com/ \"way t"
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1253747  Final URL: https://www.v2ex.com/t/1253747  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
     },
     {
-      "id": 1252568,
-      "title": "我想美国本土的人开车测试采集数据，哪里能找到人合作？",
-      "url": "https://www.v2ex.com/t/1252568",
-      "author": "yuzhangalva",
-      "created": 1793172810,
-      "daysAgo": 8,
-      "budget": 89,
-      "techs": [
-        "Go",
-        "JavaScript"
-      ],
+      "id": 1254836,
+      "title": "医学六轴网站制作，里面需要数字交互 3D 显示，劳动报酬优，有意者请联系我并留下联系方式！",
+      "url": "https://www.v2ex.com/t/1254836",
+      "author": "zmlvipvip",
+      "created": 1793891547,
+      "daysAgo": 0,
+      "budget": null,
+      "techs": [],
       "contacts": [],
       "urgent": false,
-      "snippet": "Title: 我想美国本土的人开车测试采集数据，哪里能找到人合作？  URL Source: http://www.v2ex.com/t/1252568  Final URL: https://www.v2ex.com/t/1252568  Published Time: 2026-10-28T07:33:30Z  Markdown Content: [](https://www.v2ex.com"
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1254836  Final URL: https://www.v2ex.com/t/1254836  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
+    },
+    {
+      "id": 1254804,
+      "title": "网站制作，里面需要数字交互 3D 显示，劳动报酬优，有意者请联系我并留下联系方式！",
+      "url": "https://www.v2ex.com/t/1254804",
+      "author": "zmlvipvip",
+      "created": 1793880491,
+      "daysAgo": 0,
+      "budget": null,
+      "techs": [],
+      "contacts": [],
+      "urgent": false,
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1254804  Final URL: https://www.v2ex.com/t/1254804  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
     },
     {
       "id": 1254575,
@@ -56,48 +46,12 @@
       "url": "https://www.v2ex.com/t/1254575",
       "author": "crazyu",
       "created": 1793811344,
-      "daysAgo": 0,
+      "daysAgo": 1,
       "budget": null,
       "techs": [],
       "contacts": [],
       "urgent": false,
-      "snippet": "主要是纵跳垫产品，测试运动相关的数据\r \r 联系方式：Y3Jhenl1X2NoYW5n\r 备注：运动设备开发"
-    },
-    {
-      "id": 1254174,
-      "title": "手势生成项目",
-      "url": "https://www.v2ex.com/t/1254174",
-      "author": "Djaron",
-      "created": 1793694636,
-      "daysAgo": 2,
-      "budget": null,
-      "techs": [
-        "Go",
-        "JavaScript",
-        "AWS",
-        "Azure",
-        "AI"
-      ],
-      "contacts": [],
-      "urgent": false,
-      "snippet": "Title: 手势生成项目  URL Source: http://www.v2ex.com/t/1254174  Final URL: https://www.v2ex.com/t/1254174  Published Time: 2026-11-03T08:30:36Z  Markdown Content: [](https://www.v2ex.com/ \"way to explore\") "
-    },
-    {
-      "id": 1254013,
-      "title": "设计接单，不接也行",
-      "url": "https://www.v2ex.com/t/1254013",
-      "author": "sudanlan",
-      "created": 1793669545,
-      "daysAgo": 2,
-      "budget": null,
-      "techs": [
-        "AI"
-      ],
-      "contacts": [
-        "VX: siterloo"
-      ],
-      "urgent": false,
-      "snippet": "Title: 设计接单，不接也行  URL Source: http://www.v2ex.com/t/1254013  Final URL: https://www.v2ex.com/t/1254013  Published Time: 2026-11-03T01:32:25Z  Markdown Content: [![Image 1: sudanlan](https://cdn.v2ex.c"
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1254575  Final URL: https://www.v2ex.com/t/1254575  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
     },
     {
       "id": 1253005,
@@ -105,26 +59,19 @@
       "url": "https://www.v2ex.com/t/1253005",
       "author": "Foxalone",
       "created": 1793288966,
-      "daysAgo": 6,
+      "daysAgo": 7,
       "budget": null,
       "techs": [
         "Java"
       ],
-      "contacts": [
-        "联系: R2F1ZGlfRm94"
-      ],
+      "contacts": [],
       "urgent": false,
-      "snippet": "Title: 私活外包 项目二开 Java , 对接过云迹机器人配送的来.  URL Source: http://www.v2ex.com/t/1253005  Final URL: https://www.v2ex.com/t/1253005  Published Time: 2026-10-29T15:49:26Z  Markdown Content: 双11 VPS拼团活动 美国VPS 9"
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1253005  Final URL: https://www.v2ex.com/t/1253005  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
     }
   ],
   "techs": [
-    "AI",
-    "AWS",
-    "Azure",
-    "Go",
-    "Java",
-    "JavaScript"
+    "Java"
   ],
   "total_fetched": 10,
-  "total_signals": 7
+  "total_signals": 5
 }
