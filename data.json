@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-11-07T08:29:59.588353Z",
+  "signals": [
+    {
+      "id": 1253747,
+      "title": "一个会员系统报价 1.5W，客户嫌贵",
+      "url": "https://www.v2ex.com/t/1253747",
+      "author": "jedeft",
+      "created": 1793591716,
+      "daysAgo": 5,
+      "budget": 1,
+      "techs": [],
+      "contacts": [],
+      "urgent": false,
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1253747  Final URL: https://www.v2ex.com/t/1253747  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
+    },
+    {
+      "id": 1254836,
+      "title": "医学六轴网站制作，里面需要数字交互 3D 显示，劳动报酬优，有意者请联系我并留下联系方式！",
+      "url": "https://www.v2ex.com/t/1254836",
+      "author": "zmlvipvip",
+      "created": 1793891547,
+      "daysAgo": 1,
+      "budget": null,
+      "techs": [],
+      "contacts": [],
+      "urgent": false,
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1254836  Final URL: https://www.v2ex.com/t/1254836  Warning: Target URL returned error 403: Forbidden Warning: This page maybe not yet fully "
+    },
+    {
+      "id": 1254804,
+      "title": "网站制作，里面需要数字交互 3D 显示，劳动报酬优，有意者请联系我并留下联系方式！",
+      "url": "https://www.v2ex.com/t/1254804",
+      "author": "zmlvipvip",
+      "created": 1793880491,
+      "daysAgo": 1,
+      "budget": null,
+      "techs": [],
+      "contacts": [],
+      "urgent": false,
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1254804  Final URL: https://www.v2ex.com/t/1254804  Warning: Target URL returned error 403: Forbidden Warning: This page maybe not yet fully "
+    },
+    {
+      "id": 1254575,
+      "title": "寻找做过运动设备的开发者，有项目需要进行合作",
+      "url": "https://www.v2ex.com/t/1254575",
+      "author": "crazyu",
+      "created": 1793811344,
+      "daysAgo": 2,
+      "budget": null,
+      "techs": [],
+      "contacts": [],
+      "urgent": false,
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1254575  Final URL: https://www.v2ex.com/t/1254575  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
+    },
+    {
+      "id": 1253005,
+      "title": "私活外包 项目二开 Java , 对接过云迹机器人配送的来.",
+      "url": "https://www.v2ex.com/t/1253005",
+      "author": "Foxalone",
+      "created": 1793288966,
+      "daysAgo": 8,
+      "budget": null,
+      "techs": [
+        "Java"
+      ],
+      "contacts": [],
+      "urgent": false,
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1253005  Final URL: https://www.v2ex.com/t/1253005  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
+    }
+  ],
+  "techs": [
+    "Java"
+  ],
+  "total_fetched": 10,
+  "total_signals": 5
+}
