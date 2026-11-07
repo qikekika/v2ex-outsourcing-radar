@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-06T09:02:13.931128Z",
+  "timestamp": "2026-11-07T08:29:59.588353Z",
   "signals": [
     {
       "id": 1253747,
@@ -7,7 +7,7 @@
       "url": "https://www.v2ex.com/t/1253747",
       "author": "jedeft",
       "created": 1793591716,
-      "daysAgo": 4,
+      "daysAgo": 5,
       "budget": 1,
       "techs": [],
       "contacts": [],
@@ -20,12 +20,12 @@
       "url": "https://www.v2ex.com/t/1254836",
       "author": "zmlvipvip",
       "created": 1793891547,
-      "daysAgo": 0,
+      "daysAgo": 1,
       "budget": null,
       "techs": [],
       "contacts": [],
       "urgent": false,
-      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1254836  Final URL: https://www.v2ex.com/t/1254836  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1254836  Final URL: https://www.v2ex.com/t/1254836  Warning: Target URL returned error 403: Forbidden Warning: This page maybe not yet fully "
     },
     {
       "id": 1254804,
@@ -33,12 +33,12 @@
       "url": "https://www.v2ex.com/t/1254804",
       "author": "zmlvipvip",
       "created": 1793880491,
-      "daysAgo": 0,
+      "daysAgo": 1,
       "budget": null,
       "techs": [],
       "contacts": [],
       "urgent": false,
-      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1254804  Final URL: https://www.v2ex.com/t/1254804  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1254804  Final URL: https://www.v2ex.com/t/1254804  Warning: Target URL returned error 403: Forbidden Warning: This page maybe not yet fully "
     },
     {
       "id": 1254575,
@@ -46,7 +46,7 @@
       "url": "https://www.v2ex.com/t/1254575",
       "author": "crazyu",
       "created": 1793811344,
-      "daysAgo": 1,
+      "daysAgo": 2,
       "budget": null,
       "techs": [],
       "contacts": [],
@@ -59,7 +59,7 @@
       "url": "https://www.v2ex.com/t/1253005",
       "author": "Foxalone",
       "created": 1793288966,
-      "daysAgo": 7,
+      "daysAgo": 8,
       "budget": null,
       "techs": [
         "Java"
