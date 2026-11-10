@@ -1,21 +1,18 @@
 {
-  "timestamp": "2026-11-09T09:23:49.142826Z",
+  "timestamp": "2026-11-10T09:27:03.855452Z",
   "signals": [
     {
-      "id": 1254575,
-      "title": "寻找做过运动设备的开发者，有项目需要进行合作",
-      "url": "https://www.v2ex.com/t/1254575",
-      "author": "crazyu",
-      "created": 1793811344,
-      "daysAgo": 4,
-      "budget": null,
-      "techs": [
-        "Go",
-        "AI"
-      ],
+      "id": 1253747,
+      "title": "一个会员系统报价 1.5W，客户嫌贵",
+      "url": "https://www.v2ex.com/t/1253747",
+      "author": "jedeft",
+      "created": 1793591716,
+      "daysAgo": 8,
+      "budget": 1,
+      "techs": [],
       "contacts": [],
-      "urgent": true,
-      "snippet": "Title: 寻找做过运动设备的开发者，有项目需要进行合作  URL Source: http://www.v2ex.com/t/1254575  Final URL: https://www.v2ex.com/t/1254575  Published Time: 2026-11-04T16:55:44Z  Markdown Content: AnySearch 学生&开发者成长计划  [![Im"
+      "urgent": false,
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1253747  Final URL: https://www.v2ex.com/t/1253747  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
     },
     {
       "id": 1255371,
@@ -23,35 +20,12 @@
       "url": "https://www.v2ex.com/t/1255371",
       "author": "zhanlingjie",
       "created": 1794135777,
-      "daysAgo": 0,
-      "budget": 200000,
-      "techs": [
-        "Go",
-        "JavaScript",
-        "算法"
-      ],
-      "contacts": [
-        "联系： 微信同手机"
-      ],
-      "urgent": false,
-      "snippet": "Title: 机械臂路径轨迹规划 欢迎各位同学报价  URL Source: http://www.v2ex.com/t/1255371  Final URL: https://www.v2ex.com/t/1255371  Published Time: 2026-11-08T11:02:57Z  Markdown Content: [](https://www.v2ex.com/ \"way t"
-    },
-    {
-      "id": 1253747,
-      "title": "一个会员系统报价 1.5W，客户嫌贵",
-      "url": "https://www.v2ex.com/t/1253747",
-      "author": "jedeft",
-      "created": 1793591716,
-      "daysAgo": 7,
-      "budget": 20000,
-      "techs": [
-        "Go",
-        "JavaScript",
-        "AI"
-      ],
+      "daysAgo": 1,
+      "budget": null,
+      "techs": [],
       "contacts": [],
       "urgent": false,
-      "snippet": "Title: 一个会员系统报价 1.5W，客户嫌贵  URL Source: http://www.v2ex.com/t/1253747  Final URL: https://www.v2ex.com/t/1253747  Published Time: 2026-11-02T03:55:16Z  Markdown Content: [](https://www.v2ex.com/ \"way t"
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1255371  Final URL: https://www.v2ex.com/t/1255371  Warning: Target URL returned error 403: Forbidden Warning: This page maybe not yet fully "
     },
     {
       "id": 1254836,
@@ -59,59 +33,41 @@
       "url": "https://www.v2ex.com/t/1254836",
       "author": "zmlvipvip",
       "created": 1793891547,
-      "daysAgo": 3,
+      "daysAgo": 4,
       "budget": null,
-      "techs": [
-        "Go",
-        "JavaScript"
-      ],
-      "contacts": [
-        "联系： colmk@foxmail.com",
-        "邮箱： 3d2holo@gmail.com"
-      ],
-      "urgent": false,
-      "snippet": "Title: 医学六轴网站制作，里面需要数字交互 3D 显示，劳动报酬优，有意者请联系我并留下联系方式！  URL Source: http://www.v2ex.com/t/1254836  Final URL: https://www.v2ex.com/t/1254836  Published Time: 2026-11-05T15:12:27Z  Markdown Content: [](h"
-    },
-    {
-      "id": 1254211,
-      "title": "电力交易 Top 企业，寻找背靠背合作模式的软件公司",
-      "url": "https://www.v2ex.com/t/1254211",
-      "author": "hyperprice",
-      "created": 1793699324,
-      "daysAgo": 5,
-      "budget": null,
-      "techs": [
-        "Go",
-        "JavaScript"
-      ],
+      "techs": [],
       "contacts": [],
       "urgent": false,
-      "snippet": "Title: 电力交易 Top 企业，寻找背靠背合作模式的软件公司  URL Source: http://www.v2ex.com/t/1254211  Final URL: https://www.v2ex.com/t/1254211  Published Time: 2026-11-03T09:48:44Z  Markdown Content: [](https://www.v2ex.com"
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1254836  Final URL: https://www.v2ex.com/t/1254836  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
     },
     {
-      "id": 1254013,
-      "title": "设计接单，不接也行",
-      "url": "https://www.v2ex.com/t/1254013",
-      "author": "sudanlan",
-      "created": 1793669545,
-      "daysAgo": 6,
+      "id": 1254804,
+      "title": "网站制作，里面需要数字交互 3D 显示，劳动报酬优，有意者请联系我并留下联系方式！",
+      "url": "https://www.v2ex.com/t/1254804",
+      "author": "zmlvipvip",
+      "created": 1793880491,
+      "daysAgo": 4,
       "budget": null,
-      "techs": [
-        "AI"
-      ],
-      "contacts": [
-        "VX: siterloo"
-      ],
+      "techs": [],
+      "contacts": [],
       "urgent": false,
-      "snippet": "Title: 设计接单，不接也行  URL Source: http://www.v2ex.com/t/1254013  Final URL: https://www.v2ex.com/t/1254013  Published Time: 2026-11-03T01:32:25Z  Markdown Content: 香港CN2,4H4G10M，月付69还有更多优惠机型，稳定运营三年。  [![I"
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1254804  Final URL: https://www.v2ex.com/t/1254804  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
+    },
+    {
+      "id": 1254575,
+      "title": "寻找做过运动设备的开发者，有项目需要进行合作",
+      "url": "https://www.v2ex.com/t/1254575",
+      "author": "crazyu",
+      "created": 1793811344,
+      "daysAgo": 5,
+      "budget": null,
+      "techs": [],
+      "contacts": [],
+      "urgent": false,
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1254575  Final URL: https://www.v2ex.com/t/1254575  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
     }
   ],
-  "techs": [
-    "AI",
-    "Go",
-    "JavaScript",
-    "算法"
-  ],
+  "techs": [],
   "total_fetched": 10,
-  "total_signals": 6
+  "total_signals": 5
 }
