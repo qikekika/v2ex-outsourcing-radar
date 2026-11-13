@@ -1,26 +1,13 @@
 {
-  "timestamp": "2026-11-12T09:28:19.026370Z",
+  "timestamp": "2026-11-13T09:15:21.811097Z",
   "signals": [
-    {
-      "id": 1253747,
-      "title": "一个会员系统报价 1.5W，客户嫌贵",
-      "url": "https://www.v2ex.com/t/1253747",
-      "author": "jedeft",
-      "created": 1793591716,
-      "daysAgo": 10,
-      "budget": 1,
-      "techs": [],
-      "contacts": [],
-      "urgent": false,
-      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1253747  Final URL: https://www.v2ex.com/t/1253747  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
-    },
     {
       "id": 1255371,
       "title": "机械臂路径轨迹规划 欢迎各位同学报价",
       "url": "https://www.v2ex.com/t/1255371",
       "author": "zhanlingjie",
       "created": 1794135777,
-      "daysAgo": 3,
+      "daysAgo": 4,
       "budget": null,
       "techs": [],
       "contacts": [],
@@ -33,7 +20,7 @@
       "url": "https://www.v2ex.com/t/1254836",
       "author": "zmlvipvip",
       "created": 1793891547,
-      "daysAgo": 6,
+      "daysAgo": 7,
       "budget": null,
       "techs": [],
       "contacts": [],
@@ -46,7 +33,7 @@
       "url": "https://www.v2ex.com/t/1254804",
       "author": "zmlvipvip",
       "created": 1793880491,
-      "daysAgo": 6,
+      "daysAgo": 7,
       "budget": null,
       "techs": [],
       "contacts": [],
@@ -59,7 +46,7 @@
       "url": "https://www.v2ex.com/t/1254575",
       "author": "crazyu",
       "created": 1793811344,
-      "daysAgo": 7,
+      "daysAgo": 8,
       "budget": null,
       "techs": [],
       "contacts": [],
@@ -69,5 +56,5 @@
   ],
   "techs": [],
   "total_fetched": 10,
-  "total_signals": 5
+  "total_signals": 4
 }
