@@ -1,36 +1,20 @@
 {
-  "timestamp": "2026-11-16T09:09:53.777496Z",
+  "timestamp": "2026-11-17T10:21:52.942505Z",
   "signals": [
-    {
-      "id": 1257211,
-      "title": "[接外包 / 分包合作] 4 年+ 前端/全栈开发，React / Electron / Node.js / AI，寻求长期技术合作",
-      "url": "https://www.v2ex.com/t/1257211",
-      "author": "xuehualjx",
-      "created": 1794730749,
-      "daysAgo": 1,
-      "budget": null,
-      "techs": [
-        "React",
-        "Node.js",
-        "AI",
-        "Electron"
-      ],
-      "contacts": [],
-      "urgent": false,
-      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1257211  Final URL: https://www.v2ex.com/t/1257211  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
-    },
     {
       "id": 1257148,
       "title": "[招人] X、Reddit 海外推广运营，日结 200 起，可长期合作",
       "url": "https://www.v2ex.com/t/1257148",
       "author": "ynp1980",
       "created": 1794705049,
-      "daysAgo": 1,
+      "daysAgo": 2,
       "budget": null,
-      "techs": [],
+      "techs": [
+        "AI"
+      ],
       "contacts": [],
       "urgent": false,
-      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1257148  Final URL: https://www.v2ex.com/t/1257148  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
+      "snippet": "在 X、Reddit 上做品牌推广获客：用我们的官方号发推、做抽奖活动、参与社区讨论、回复评论。\r \r 需要基础英语，懂代码或会用 AI Agent，能学会我们的一套基础自动化工具。\r \r 每天 4 小时，日结，暂定 200，觉得低可以聊。按每日新增用户数考核（排除机器人账号），做得好可以长期合作。\r \r **一、工作目标**\r \r 通过抽奖等活动，借已有用户的社交圈带来新用户，做长期稳定的获客。"
     },
     {
       "id": 1255371,
@@ -38,12 +22,14 @@
       "url": "https://www.v2ex.com/t/1255371",
       "author": "zhanlingjie",
       "created": 1794135777,
-      "daysAgo": 7,
+      "daysAgo": 8,
       "budget": null,
       "techs": [],
-      "contacts": [],
+      "contacts": [
+        "联系： 微信同手机"
+      ],
       "urgent": false,
-      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1255371  Final URL: https://www.v2ex.com/t/1255371  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
+      "snippet": "我们目前在用柴孚机械臂， 同时在对接库卡 海康的机械臂\r \r 想寻找有过机械臂轨迹规划的算法同学， 我们现场可以配合调试， 或者在杭州及周边的我们可以适当的补贴差旅费\r \r 需求：\r 1. 可以自定义位姿 比如末端工具的角度\r 2. 可以绕开障碍物\r 3. 配合外部轴地轨\r \r \r 最好是在杭州， 可以长期合作\r 联系： 微信同手机 不加密 18895309883"
     },
     {
       "id": 1254836,
@@ -51,12 +37,12 @@
       "url": "https://www.v2ex.com/t/1254836",
       "author": "zmlvipvip",
       "created": 1793891547,
-      "daysAgo": 10,
+      "daysAgo": 11,
       "budget": null,
       "techs": [],
       "contacts": [],
       "urgent": false,
-      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1254836  Final URL: https://www.v2ex.com/t/1254836  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
+      "snippet": "类似于工业六轴软件，在医学上用于骨科肢体矫正，安装好外固定架后，通过测量 X 线片后输入骨骼的畸形度数，再输入每个轴的初始长度，软件给出调整处方，例如 1 天 1 毫米或 0.75 毫米等，最终使骨骼复位"
     },
     {
       "id": 1254804,
@@ -64,12 +50,12 @@
       "url": "https://www.v2ex.com/t/1254804",
       "author": "zmlvipvip",
       "created": 1793880491,
-      "daysAgo": 10,
+      "daysAgo": 11,
       "budget": null,
       "techs": [],
       "contacts": [],
       "urgent": false,
-      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1254804  Final URL: https://www.v2ex.com/t/1254804  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
+      "snippet": ""
     },
     {
       "id": 1254575,
@@ -77,20 +63,17 @@
       "url": "https://www.v2ex.com/t/1254575",
       "author": "crazyu",
       "created": 1793811344,
-      "daysAgo": 11,
+      "daysAgo": 12,
       "budget": null,
       "techs": [],
       "contacts": [],
       "urgent": false,
-      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1254575  Final URL: https://www.v2ex.com/t/1254575  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
+      "snippet": "主要是纵跳垫产品，测试运动相关的数据\r \r 联系方式：Y3Jhenl1X2NoYW5n\r 备注：运动设备开发"
     }
   ],
   "techs": [
-    "AI",
-    "Electron",
-    "Node.js",
-    "React"
+    "AI"
   ],
   "total_fetched": 10,
-  "total_signals": 6
+  "total_signals": 5
 }
