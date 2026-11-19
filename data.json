@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-18T09:53:21.016393Z",
+  "timestamp": "2026-11-19T09:59:50.888828Z",
   "signals": [
     {
       "id": 1258054,
@@ -7,7 +7,7 @@
       "url": "https://www.v2ex.com/t/1258054",
       "author": "corgiyun",
       "created": 1794992545,
-      "daysAgo": 0,
+      "daysAgo": 1,
       "budget": null,
       "techs": [
         "AI"
@@ -22,7 +22,7 @@
       "url": "https://www.v2ex.com/t/1257211",
       "author": "xuehualjx",
       "created": 1794730749,
-      "daysAgo": 3,
+      "daysAgo": 4,
       "budget": null,
       "techs": [
         "React",
@@ -40,7 +40,7 @@
       "url": "https://www.v2ex.com/t/1257148",
       "author": "ynp1980",
       "created": 1794705049,
-      "daysAgo": 3,
+      "daysAgo": 4,
       "budget": null,
       "techs": [],
       "contacts": [],
@@ -53,7 +53,7 @@
       "url": "https://www.v2ex.com/t/1255371",
       "author": "zhanlingjie",
       "created": 1794135777,
-      "daysAgo": 9,
+      "daysAgo": 10,
       "budget": null,
       "techs": [],
       "contacts": [],
@@ -66,25 +66,12 @@
       "url": "https://www.v2ex.com/t/1254836",
       "author": "zmlvipvip",
       "created": 1793891547,
-      "daysAgo": 12,
+      "daysAgo": 13,
       "budget": null,
       "techs": [],
       "contacts": [],
       "urgent": false,
       "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1254836  Final URL: https://www.v2ex.com/t/1254836  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
-    },
-    {
-      "id": 1254804,
-      "title": "网站制作，里面需要数字交互 3D 显示，劳动报酬优，有意者请联系我并留下联系方式！",
-      "url": "https://www.v2ex.com/t/1254804",
-      "author": "zmlvipvip",
-      "created": 1793880491,
-      "daysAgo": 12,
-      "budget": null,
-      "techs": [],
-      "contacts": [],
-      "urgent": false,
-      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1254804  Final URL: https://www.v2ex.com/t/1254804  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
     }
   ],
   "techs": [
@@ -94,5 +81,5 @@
     "React"
   ],
   "total_fetched": 10,
-  "total_signals": 6
+  "total_signals": 5
 }
