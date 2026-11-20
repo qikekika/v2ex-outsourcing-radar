@@ -1,13 +1,26 @@
 {
-  "timestamp": "2026-11-19T09:59:50.888828Z",
+  "timestamp": "2026-11-20T09:48:52.169231Z",
   "signals": [
+    {
+      "id": 1258344,
+      "title": "历经两年搞了电商企微客服聚合聊天，有没有需要的老板",
+      "url": "https://www.v2ex.com/t/1258344",
+      "author": "Jack66",
+      "created": 1795082985,
+      "daysAgo": 0,
+      "budget": null,
+      "techs": [],
+      "contacts": [],
+      "urgent": false,
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1258344  Final URL: https://www.v2ex.com/t/1258344  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
+    },
     {
       "id": 1258054,
       "title": "[杭州]坐班兼职 AI 产品交互设计师（兼 UI）、软件测试工程师（AI 应用方向",
       "url": "https://www.v2ex.com/t/1258054",
       "author": "corgiyun",
       "created": 1794992545,
-      "daysAgo": 1,
+      "daysAgo": 2,
       "budget": null,
       "techs": [
         "AI"
@@ -22,7 +35,7 @@
       "url": "https://www.v2ex.com/t/1257211",
       "author": "xuehualjx",
       "created": 1794730749,
-      "daysAgo": 4,
+      "daysAgo": 5,
       "budget": null,
       "techs": [
         "React",
@@ -32,7 +45,7 @@
       ],
       "contacts": [],
       "urgent": false,
-      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1257211  Final URL: https://www.v2ex.com/t/1257211  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1257211  Final URL: https://www.v2ex.com/t/1257211  Warning: This page maybe not yet fully loaded, consider explicitly specify a timeout. War"
     },
     {
       "id": 1257148,
@@ -40,12 +53,12 @@
       "url": "https://www.v2ex.com/t/1257148",
       "author": "ynp1980",
       "created": 1794705049,
-      "daysAgo": 4,
+      "daysAgo": 5,
       "budget": null,
       "techs": [],
       "contacts": [],
       "urgent": false,
-      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1257148  Final URL: https://www.v2ex.com/t/1257148  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1257148  Final URL: https://www.v2ex.com/t/1257148  Warning: This page maybe not yet fully loaded, consider explicitly specify a timeout. War"
     },
     {
       "id": 1255371,
@@ -53,25 +66,12 @@
       "url": "https://www.v2ex.com/t/1255371",
       "author": "zhanlingjie",
       "created": 1794135777,
-      "daysAgo": 10,
+      "daysAgo": 11,
       "budget": null,
       "techs": [],
       "contacts": [],
       "urgent": false,
       "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1255371  Final URL: https://www.v2ex.com/t/1255371  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
-    },
-    {
-      "id": 1254836,
-      "title": "医学六轴网站制作，里面需要数字交互 3D 显示，劳动报酬优，有意者请联系我并留下联系方式！",
-      "url": "https://www.v2ex.com/t/1254836",
-      "author": "zmlvipvip",
-      "created": 1793891547,
-      "daysAgo": 13,
-      "budget": null,
-      "techs": [],
-      "contacts": [],
-      "urgent": false,
-      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1254836  Final URL: https://www.v2ex.com/t/1254836  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
     }
   ],
   "techs": [
