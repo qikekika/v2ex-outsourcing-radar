@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-24T12:09:12.704122Z",
+  "timestamp": "2026-11-25T10:58:43.059333Z",
   "signals": [
     {
       "id": 1258344,
@@ -7,12 +7,12 @@
       "url": "https://www.v2ex.com/t/1258344",
       "author": "Jack66",
       "created": 1795082985,
-      "daysAgo": 5,
+      "daysAgo": 6,
       "budget": null,
       "techs": [],
       "contacts": [],
       "urgent": false,
-      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1258344  Final URL: https://www.v2ex.com/t/1258344  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1258344  Final URL: https://www.v2ex.com/t/1258344  Warning: Target URL returned error 403: Forbidden Warning: This page maybe not yet fully "
     },
     {
       "id": 1258054,
@@ -20,7 +20,7 @@
       "url": "https://www.v2ex.com/t/1258054",
       "author": "corgiyun",
       "created": 1794992545,
-      "daysAgo": 6,
+      "daysAgo": 7,
       "budget": null,
       "techs": [
         "AI"
@@ -35,7 +35,7 @@
       "url": "https://www.v2ex.com/t/1257211",
       "author": "xuehualjx",
       "created": 1794730749,
-      "daysAgo": 9,
+      "daysAgo": 10,
       "budget": null,
       "techs": [
         "React",
@@ -45,7 +45,7 @@
       ],
       "contacts": [],
       "urgent": false,
-      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1257211  Final URL: https://www.v2ex.com/t/1257211  Warning: Target URL returned error 403: Forbidden Warning: This page maybe not yet fully "
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1257211  Final URL: https://www.v2ex.com/t/1257211  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
     },
     {
       "id": 1257148,
@@ -53,25 +53,12 @@
       "url": "https://www.v2ex.com/t/1257148",
       "author": "ynp1980",
       "created": 1794705049,
-      "daysAgo": 9,
+      "daysAgo": 10,
       "budget": null,
       "techs": [],
       "contacts": [],
       "urgent": false,
       "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1257148  Final URL: https://www.v2ex.com/t/1257148  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
-    },
-    {
-      "id": 1255371,
-      "title": "机械臂路径轨迹规划 欢迎各位同学报价",
-      "url": "https://www.v2ex.com/t/1255371",
-      "author": "zhanlingjie",
-      "created": 1794135777,
-      "daysAgo": 16,
-      "budget": null,
-      "techs": [],
-      "contacts": [],
-      "urgent": false,
-      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1255371  Final URL: https://www.v2ex.com/t/1255371  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
     }
   ],
   "techs": [
@@ -81,5 +68,5 @@
     "React"
   ],
   "total_fetched": 10,
-  "total_signals": 5
+  "total_signals": 4
 }
