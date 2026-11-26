@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-25T10:58:43.059333Z",
+  "timestamp": "2026-11-26T10:35:36.226559Z",
   "signals": [
     {
       "id": 1258344,
@@ -7,12 +7,12 @@
       "url": "https://www.v2ex.com/t/1258344",
       "author": "Jack66",
       "created": 1795082985,
-      "daysAgo": 6,
+      "daysAgo": 7,
       "budget": null,
       "techs": [],
       "contacts": [],
       "urgent": false,
-      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1258344  Final URL: https://www.v2ex.com/t/1258344  Warning: Target URL returned error 403: Forbidden Warning: This page maybe not yet fully "
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1258344  Final URL: https://www.v2ex.com/t/1258344  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
     },
     {
       "id": 1258054,
@@ -20,7 +20,7 @@
       "url": "https://www.v2ex.com/t/1258054",
       "author": "corgiyun",
       "created": 1794992545,
-      "daysAgo": 7,
+      "daysAgo": 8,
       "budget": null,
       "techs": [
         "AI"
@@ -35,7 +35,7 @@
       "url": "https://www.v2ex.com/t/1257211",
       "author": "xuehualjx",
       "created": 1794730749,
-      "daysAgo": 10,
+      "daysAgo": 11,
       "budget": null,
       "techs": [
         "React",
@@ -53,7 +53,7 @@
       "url": "https://www.v2ex.com/t/1257148",
       "author": "ynp1980",
       "created": 1794705049,
-      "daysAgo": 10,
+      "daysAgo": 11,
       "budget": null,
       "techs": [],
       "contacts": [],
