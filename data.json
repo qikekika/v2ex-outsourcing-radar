@@ -1,0 +1,85 @@
+{
+  "timestamp": "2026-11-28T09:56:22.317531Z",
+  "signals": [
+    {
+      "id": 1260272,
+      "title": "想找人设计生产一个带对讲功能的智能手表设备，有 OPC 接单吗？",
+      "url": "https://www.v2ex.com/t/1260272",
+      "author": "warmheartli",
+      "created": 1795751423,
+      "daysAgo": 1,
+      "budget": null,
+      "techs": [],
+      "contacts": [],
+      "urgent": false,
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1260272  Final URL: https://www.v2ex.com/t/1260272  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
+    },
+    {
+      "id": 1258344,
+      "title": "历经两年搞了电商企微客服聚合聊天，有没有需要的老板",
+      "url": "https://www.v2ex.com/t/1258344",
+      "author": "Jack66",
+      "created": 1795082985,
+      "daysAgo": 8,
+      "budget": null,
+      "techs": [],
+      "contacts": [],
+      "urgent": false,
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1258344  Final URL: https://www.v2ex.com/t/1258344  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
+    },
+    {
+      "id": 1258054,
+      "title": "[杭州]坐班兼职 AI 产品交互设计师（兼 UI）、软件测试工程师（AI 应用方向",
+      "url": "https://www.v2ex.com/t/1258054",
+      "author": "corgiyun",
+      "created": 1794992545,
+      "daysAgo": 10,
+      "budget": null,
+      "techs": [
+        "AI"
+      ],
+      "contacts": [],
+      "urgent": false,
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1258054  Final URL: https://www.v2ex.com/t/1258054  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
+    },
+    {
+      "id": 1257211,
+      "title": "[接外包 / 分包合作] 4 年+ 前端/全栈开发，React / Electron / Node.js / AI，寻求长期技术合作",
+      "url": "https://www.v2ex.com/t/1257211",
+      "author": "xuehualjx",
+      "created": 1794730749,
+      "daysAgo": 13,
+      "budget": null,
+      "techs": [
+        "React",
+        "Node.js",
+        "AI",
+        "Electron"
+      ],
+      "contacts": [],
+      "urgent": false,
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1257211  Final URL: https://www.v2ex.com/t/1257211  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
+    },
+    {
+      "id": 1257148,
+      "title": "[招人] X、Reddit 海外推广运营，日结 200 起，可长期合作",
+      "url": "https://www.v2ex.com/t/1257148",
+      "author": "ynp1980",
+      "created": 1794705049,
+      "daysAgo": 13,
+      "budget": null,
+      "techs": [],
+      "contacts": [],
+      "urgent": false,
+      "snippet": "Title: Just a moment...  URL Source: http://www.v2ex.com/t/1257148  Final URL: https://www.v2ex.com/t/1257148  Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access"
+    }
+  ],
+  "techs": [
+    "AI",
+    "Electron",
+    "Node.js",
+    "React"
+  ],
+  "total_fetched": 10,
+  "total_signals": 5
+}
